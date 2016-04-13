@@ -18,7 +18,7 @@
 		    	 <div class="nav navbar-nav navbar-right">
 		      	<form class="navbar-form navbar-left" role="search">
 			        <div class="form-group">
-			          <input type="search" class="form-control" placeholder="Search thousands of resources">
+			          <input type="search" class="form-control" placeholder="Search 1000s of Resources">
 			        </div>
 		      	</form>
 		      </div>

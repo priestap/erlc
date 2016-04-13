@@ -1,6 +1,10 @@
 // ------------------------------------------------------ Carousel 
 .carousel-inner-wrapper {
 	.make-md-column(8);
+	@media (max-width: @screen-xs-max) {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 .carousel-fade {
 	.carousel-inner {
@@ -55,6 +59,14 @@
     	right: 5px !important;
     }
   }
+}
+#hero {
+	> .container {
+		@media (max-width: @screen-sm-max) {
+			width: 100%;
+			padding:0;
+		}
+	}
 }
 #heroCarousel {
 	@media (min-width: @screen-md-min) {

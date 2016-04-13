@@ -77,19 +77,19 @@
 		   		<ul>
 			      <li data-target="#heroCarousel" data-slide-to="0" class="list-group-item active">
 			      	<h3><a href="">Navigating Through Cultural Confusion <span class="pipe"> | </span><span class="author">Matthew Hawkins</span></a></h3>
-			      	<p class="hidden-md">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
 			      </li>
 			      <li data-target="#heroCarousel" data-slide-to="1" class="list-group-item">
 			      	<h3><a href="">Praying for the Persecuted Church:&nbsp;Nigeria <span class="pipe"> | </span><span class="author">Matthew Hawkins</span></a></h3>
-			      	<p class="hidden-md">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
 			      </li>
 			      <li data-target="#heroCarousel" data-slide-to="2" class="list-group-item">
 			      	<h3><a href="">Together For the Gospel &rsquo;16 <span class="pipe"> | </span><span class="type">Event</span> <span class="pipe"> | </span><span class="place-time">Louisville, KY, April 12-14 2016</span></a></h3>
-			      	<p class="hidden-md">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
 			      </li>
 			      <li data-target="#heroCarousel" data-slide-to="3" class="list-group-item">
 			      	<h3><a href="">Russell Moore Champions Religious Freedom in Little Sisters of the Poor Supreme Court Case <span class="pipe"> | </span><span class="type">Press</span></a></h3>
-			      	<p class="hidden-md">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
 			      </li>
 
 			    </ul>
