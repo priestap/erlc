@@ -105,10 +105,10 @@
 		
 	</footer>
 
-	<!-- <div class="visible-xs sizy">XS</div>
+	<div class="visible-xs sizy">XS</div>
 	<div class="visible-sm sizy">SM</div>
 	<div class="visible-md sizy">MD</div>
-	<div class="visible-lg sizy">LG</div> -->
+	<div class="visible-lg sizy">LG</div>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

@@ -8073,7 +8073,7 @@ a:hover {
 .site-header .navbar-collapse {
   padding-left: 0;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .site-header .navbar-nav {
     margin-left: 10px;
     margin-right: 0;
@@ -8085,7 +8085,7 @@ a:hover {
   border-radius: 0;
   background: transparent;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .site-header .navbar-default {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.065);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.065);
@@ -8103,7 +8103,7 @@ a:hover {
   /* Search Input Field wrapper */
   /* Search Input Field */
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .site-header .navbar-default .navbar-form {
     margin-left: 0;
     -webkit-box-sizing: border-box;
@@ -8112,7 +8112,7 @@ a:hover {
     margin: 0 auto;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .site-header .navbar-default .navbar-form {
     float: right !important;
   }
@@ -8138,7 +8138,7 @@ a:hover {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-header .navbar-default .navbar-form .form-group:before {
-    right: -16px;
+    right: 16px;
   }
 }
 .site-header .navbar-default .navbar-form .form-control {
@@ -8366,14 +8366,14 @@ a:hover {
   background-color: rgba(230, 231, 232, 0.97);
   border-radius: 3px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-nav .open .dropdown-menu {
     background-color: #f9f9f9 !important;
     -webkit-box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 0 40px rgba(0, 0, 0, 0.05);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .navbar-nav .open .dropdown-menu {
     -webkit-box-shadow: 0 3px 1px rgba(0, 0, 0, 0.05);
     box-shadow: 0 3px 1px rgba(0, 0, 0, 0.05);
@@ -8437,7 +8437,7 @@ a:hover {
   position: relative;
   left: -5px;
 }
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .navbar-brand {
     padding-left: 0;
     padding-top: 13px;
@@ -8553,8 +8553,8 @@ a:hover {
   }
 }
 #heroCarousel .carousel-caption h4 {
-  font-size: 45px;
-  max-width: 500px;
+  font-size: 38px;
+  max-width: 95%;
   letter-spacing: 1px;
   font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   font-weight: 800;
@@ -8723,13 +8723,13 @@ a:hover {
 .section-footer .container a:first-child {
   margin-left: -10px;
 }
-@media (min-width: 768px) {
-  .subpage #content.sticky {
-    padding-top: 198px;
+@media (max-width: 991px) {
+  .subpage .main {
+    padding-top: 62.8px;
   }
 }
 @media (min-width: 768px) {
-  .article #content.sticky {
+  .subpage #content.sticky {
     padding-top: 194px;
   }
 }
@@ -9085,6 +9085,11 @@ article .related-resources .card .thumbnail .caption h3 {
   margin-bottom: 20px;
   max-width: 100%;
 }
+@media (max-width: 1199px) {
+  .author-bio .author-photo img {
+    margin-top: 10px;
+  }
+}
 .author-bio .author-photo a {
   color: inherit;
   clear: both;
@@ -9195,6 +9200,12 @@ article .related-resources .card .thumbnail .caption h3 {
   position: relative;
   margin-bottom: 20px;
 }
+@media (max-width: 767px) {
+  .post.post-thumb {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 @media (min-width: 768px) {
   .post.post-thumb {
     float: left;
@@ -9282,12 +9293,6 @@ article .related-resources .card .thumbnail .caption h3 {
   padding-left: 20px;
   padding-right: 20px;
   padding-right: 0;
-}
-@media (min-width: 768px) {
-  .home .navbar-right {
-    float: left;
-    width: 8.33333333%;
-  }
 }
 @media (min-width: 992px) {
   .home .navbar-right {
@@ -10098,18 +10103,14 @@ a.resource-list .resource-tags a:focus {
 }
 .speakers .speaker {
   padding-bottom: 80px;
+  float: left;
+  width: 100%;
   position: relative;
   min-height: 1px;
   padding-left: 20px;
   padding-right: 20px;
 }
 @media (min-width: 768px) {
-  .speakers .speaker {
-    float: left;
-    width: 100%;
-  }
-}
-@media (min-width: 992px) {
   .speakers .speaker {
     float: left;
     width: 50%;
@@ -10121,7 +10122,7 @@ a.resource-list .resource-tags a:focus {
     width: 33.33333333%;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .speakers .speaker:nth-child(2n+1) {
     clear: both;
   }
