@@ -1,0 +1,118 @@
+// Custom Mixins
+
+.my-placeholder(@color, @font-weight, @text-transform, @font-size) {
+	&::-webkit-input-placeholder {
+	color: @color;
+	font-weight: @font-weight;
+	text-transform: @text-transform;
+	font-size: @font-size;
+	}
+	&::-moz-placeholder {
+		color: @color;
+		font-weight: @font-weight;
+		text-transform: @text-transform;
+		font-size: @font-size;
+	}
+	&:-ms-input-placeholder {
+		color: @color;
+		font-weight: @font-weight;
+		text-transform: @text-transform;
+		font-size: @font-size;
+	}
+	&:-moz-placeholder {
+		color: @color;
+		font-weight: @font-weight;
+		text-transform: @text-transform;
+		font-size: @font-size;
+	}
+}
+
+.sizy {
+	position: fixed;
+	bottom: 20px;
+	left: 20px;
+	z-index: 99999;
+	background: rgba(0,0,0,.1);
+	color: #333;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	text-align: center;
+	width: 40px;
+	border-radius: 40px;
+}
+
+.blur(@blur) {
+	filter: blur(@blur);
+	-webkit-filter: blur(@blur);
+	-moz-filter: blur(@blur);
+	-o-filter: blur(@blur);
+	-ms-filter: blur(@blur);
+}
+
+.Ionicon {
+	font-family: "Ionicons";
+	display: inline-block;
+	color: inherit;
+}
+
+.font-serif {
+	font-family: @font-family-secondary;
+}
+
+.font-sans {
+	font-family: @font-family-base;
+}
+
+.font-base {
+	.font-sans;
+}
+
+.font-base-upper {
+	.font-base;
+	font-weight: 800;
+	text-transform: uppercase !important;
+	letter-spacing: 1px;
+}
+
+.font-secondary {
+	.font-serif;
+}
+
+.sans-upper {
+	.font-sans;
+	color: @text-color;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.major-section-header {
+	.sans-upper;
+	font-size: 1.6em;
+	border-top: 1px solid #333;
+	padding-top: 15px !important;
+	padding-bottom:0;
+	font-weight: 900;
+}
+
+.minor-section-header {
+	.sans-upper;
+}
+
+.font-serif-heavy {
+	font-family: @font-serif-heavy;
+	font-style: italic;
+	font-weight: 800;
+	letter-spacing: 0;
+}
+
+.byline {
+	margin-bottom: .4em;
+	.font-sans;
+	font-size: 11px;
+	.sans-upper;
+	.name {
+		font-weight: 600;
+	}
+}
