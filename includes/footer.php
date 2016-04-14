@@ -112,9 +112,8 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	
+	<script async src="/lib/js/bootstrap-hover-dropdown.min.js"></script>
 	<script>
-		
 		$(window).scroll(function() {
 			if ($(this).scrollTop() > 110){  
 		    $('#header_wrap').addClass("sticky");
@@ -128,3 +127,4 @@
 		  }
 		});
 	</script>
+

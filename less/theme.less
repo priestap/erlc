@@ -30,6 +30,15 @@ h1, h2, h3 {
 	font-weight: 600;
 	orphans: 2;
 	clear: both;
+	&.normal {
+		font-weight: normal !important;
+	}
+}
+h3 {
+	line-height: inherit;
+}
+h4 {
+	line-height: inherit;
 }
 p {
 	orphans: 3;
@@ -102,6 +111,10 @@ a {
 	}
 }
 
+.embed-responsive {
+	margin-bottom: @grid-gutter-width;
+}
+
 
 @import "navbar.less";
 @import "carousel.less";
@@ -140,18 +153,24 @@ a {
 // }
 
 // ------------------------------------------- Main Content
+article#content {
+	@media (max-width: @screen-sm-max) {
+		padding-top: @grid-gutter-width*1.57;
+	}
+}
+
 .subpage {
 	.main {
-		@media (max-width: @screen-sm-max) {
-			padding-top: @grid-gutter-width*1.57;
-		}
+		// @media (max-width: @screen-sm-max) {
+		// 	padding-top: @grid-gutter-width*1.57;
+		// }
 	}
 	#content.sticky {
 		// Adjustments for sticky nav
 		// @media (max-width: @screen-xs-max) {
 		// 	padding-top: @grid-gutter-width*2;
 		// }
-		@media (min-width: @screen-sm-min) {
+		@media (min-width: @screen-md-min) {
 			padding-top: 194px;
 		}
 	}
@@ -222,6 +241,11 @@ a {
 		}
 	}
 
+}
+h1.page-title {
+	border-top: 1px solid @charcoal;
+	margin-top:0;
+	padding-top: @grid-gutter-width/1.5;
 }
 h1.page-title,
 h1.article-title {
@@ -672,11 +696,9 @@ article {
 	.posts {
 		.make-row;
 		.post.post-thumb {
-			@media (max-width: @screen-sm) {
-				padding-left: 0;
-				padding-right:0;
-			}
-			.make-sm-column(4);
+			.make-xs-column(12);
+			.make-sm-column(6);
+			.make-md-column(4);
 		}
 		li {
 			&:nth-child(odd) {
@@ -1119,11 +1141,6 @@ article {
 	.tab-pane {
 		padding-top: @grid-gutter-width;
 	}
-	.article-header {
-		@media (min-width: @screen-md-min) {
-			padding-top: @grid-gutter-width;
-		}
-	}
 }
 .speakers {
 	.make-row;
@@ -1151,7 +1168,7 @@ article {
 				min-height: 150px;
 			}
 			@media (min-width: @screen-lg-min) {
-				min-height: 200px;
+				min-height: 160px;
 			}
 		}
 		.btn-default {
@@ -1211,6 +1228,24 @@ article {
 			}
 		}
 	}
+}
+
+// ------------------------------------------------------------- Snippet 
+
+.snippet {
+	.make-row;
+	padding-top: @grid-gutter-width/2;
+	padding-bottom: @grid-gutter-width/2;
+	.logo {
+		.make-sm-column(3);
+		img {
+			max-width: 150px;
+		}
+	}
+	.snippet-info {
+		.make-sm-column(9);
+	}
+
 }
 
 .sizy {

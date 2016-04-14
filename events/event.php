@@ -34,11 +34,12 @@
 	</div>
 	<article id="content" role="main">
 		<div class="container">
-			<div class="banner" role="banner">
-				<img src="/img/event-banner-wide.jpg" class="img-responsive" alt />
-			</div>
+
 			<div class="row">
 				<div class="main">
+					<div class="banner" role="banner">
+						<img src="/img/event-banner-wide.jpg" class="img-responsive" alt />
+					</div>
 					<header class="article-header">
 						<h1 class="article-title">ERLC National Conference 2016</h1>
 						<p class="byline">Gaylord Opryland Resort &amp; Convention Center<br>

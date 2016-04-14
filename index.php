@@ -1,4 +1,10 @@
 
+<?php 
+	
+ $title = "The Ethics &amp; Religious Liberty Commission";
+	
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 oldie" lang="en"> <![endif]-->
@@ -7,7 +13,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>The Ethics &amp; Religious Liberty Commission</title>
+	<title><?php echo $title ?></title>
 	<meta name="description" content="">
 	<meta name="author" content="The Ethics &amp; Religious Liberty Commission">
 	<meta name="viewport" content="width=device-width,initial-scale=1">

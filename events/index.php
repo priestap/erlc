@@ -33,16 +33,16 @@
 	</div>
 	<article id="content" role="main">
 		<div class="container">
-			<div class="hero">
-				<div class="post">
-          <div class="hero-image">
-            <a href="/events/event.php"><img src="/img/event-banner-wide.jpg" class="img-responsive" /></a>
-            <!-- <div class="badges"><span class="badge"><a href="#">Politics</a></span><span class="badge"><a href="#">Pro-life</a></span></div>   -->
-          </div>
-        </div>
-			</div>
 			<div class="row">
 				<div class="main">
+					<div class="hero">
+						<div class="post">
+		          <div class="hero-image">
+		            <a href="/events/event.php"><img src="/img/event-banner-wide.jpg" class="img-responsive" /></a>
+		            <!-- <div class="badges"><span class="badge"><a href="#">Politics</a></span><span class="badge"><a href="#">Pro-life</a></span></div>   -->
+		          </div>
+		        </div>
+					</div>
 					<h2>Upcoming Events</h2>
 					<div class="latest-posts">
 						<ul class="list-unstyled posts">
