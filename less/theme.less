@@ -1245,6 +1245,30 @@ article {
 	}
 }
 
+// ------------------------------------------------------------- Contact 
+
+.contact {
+	section.block {
+		padding-bottom: @grid-gutter-width 0;
+		margin-bottom: @grid-gutter-width;
+		display: block;
+	}
+	#mailing_addresses {
+		address {
+
+			.make-xs-column(12);
+			.make-sm-column(4);
+		}
+	}
+	.form {
+		.btn {
+			@media (min-width: @screen-sm-min) {
+				margin-left: @grid-gutter-width/6;
+			}
+		}
+	}
+}
+
 // ------------------------------------------------------------- Snippet 
 
 .snippet {
@@ -1252,12 +1276,16 @@ article {
 	padding-top: @grid-gutter-width/2;
 	padding-bottom: @grid-gutter-width/2;
 	.logo {
+		@media (max-width: @screen-xs-max) {
+			display: none;
+		}
 		.make-sm-column(3);
-		img {
-			max-width: 150px;
+		a > img {
+			.img-responsive;
 		}
 	}
 	.snippet-info {
+
 		.make-sm-column(9);
 	}
 

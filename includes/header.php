@@ -80,11 +80,9 @@
 								<li><a href="#">By Topic</a></li>
 		          </ul>
 		        </li>
-		        <li class="nav-item nav-item-more visible-xs visible-sm"><a href="#" class="dropdown-toggle" data-hover="dropdown" data-hover-delay="300" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
-		        	<ul class="dropdown-menu">
+		        <div id="utility_nav_mobile" class="visible-xs visible-sm">
 		            <?php include "_utility_nav.php" ?>
-		          </ul>
-		        </li>
+		        </div>
 		        <!-- <li class="nav-item nav-item-donate"><a href="#">Donate</a></li> -->
 		        <!-- <li class="dropdown">
 		          <a href="#" class="dropdown-toggle" data-hover="dropdown" data-hover-delay="300" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>

@@ -7,7 +7,7 @@
 
 <?php include "includes/head.php" ?>
 
-<body class="subpage archive contact">
+<body class="subpage contact">
 	<div class="wrap" id="header_wrap">
 		<?php include "includes/header.php" ?>
 	</div>
@@ -16,69 +16,65 @@
 			<div class="row">
 				<div class="main">
 					<article class="large-8 columns">
-
-						<h2><a href="/erlc/faqs/">FAQ's</a></h2>
-						<p>Have a <a href="/erlc/faqs/">question</a>? Please visit our <a href="/erlc/faqs/">Frequently Asked Questions</a> first, just in case we've already answered it. </p>
-
-						<h2><a href="/erlc/speaking/">Events, speaking requests</a></h2>
-						<p><a href="/erlc/speaking/">Submit a request</a> for an ERLC speaker at your next event.<br>(Note: If you are interested in booking an event with Dr. Russell Moore, please visit his website, <a href="http://www.russellmoore.com">russellmoore.com</a>.)</p>
-
-						<h2>Other question via email</h2>
-						<form id="contact_form" method="post" action="//erlc.com/">
-						<div class="hiddenFields">
-						<input type="hidden" name="ACT" value="21">
-						<input type="hidden" name="RET" value="http://erlc.com">
-						<input type="hidden" name="URI" value="erlc/contact">
-						<input type="hidden" name="recipients" value="qg+GNtczhWv+lXFqS9DnsJbtaFZuSAKQ69TgQrB1a7M=">
-						<input type="hidden" name="user_recipients" value="7147b0902526571c3b5a959fdd87616c">
-						<input type="hidden" name="charset" value="">
-						<input type="hidden" name="redirect" value="">
-						<input type="hidden" name="replyto" value="">
-						<input type="hidden" name="site_id" value="1">
-						<input type="hidden" name="csrf_token" value="a0a25c166eb2f6eec97bf29f0c09c51ba5ac0621">
-						</div>
-
-
-
-						<label for="from">Your Email:</label>
-						<input type="text" id="from" name="from" size="40" maxlength="35">
-
-						<input type="hidden" id="subject" name="subject" value="ERLC Contact Form">
-
-						<label for="message">Message:</label>
-						<textarea id="message" name="message" rows="12" cols="40"></textarea>
-
-						<input name="submit" type="submit" value="Submit Form" class="button">
-
-						</form>					
-
-						<h2>Press/Media Relations</h2>
-						<p><a href="/press/">ERLC.com/Press »</a></p>
-
-						<p>To request an interview, contact <a href="mailto:ebristow@erlc.com">Carrie Kintz</a> at <a href="mailto:press@erlc.com">press@erlc.com</a>.</p>
-
-						<h2>Mailing Addresses</h2>
-
-						<table>
-						<tbody><tr>
-						<td width="50%" valign="top">
-						<b>Washington Office</b><br>505 Second St., N.E.<br>Washington, DC 20002<br>Phone: (202) 547-8105<br>Fax: (202) 547-8165</td>
-						<td width="50%" valign="top">
-						<b>Nashville Office</b><br>901 Commerce Street, Suite 550<br>Nashville, Tennessee 37203<br>Phone: (615) 244-2495<br>Fax: (615) 242-0065</td>          
-						</tr>
-						</tbody></table>
-
-						<table>
-						<tbody><tr>
-						<td width="50%" valign="top">
-						<b>Middle East Office</b><br>Jacovides Tower<br>81-83, Grivas Digenis Avenue<br>CY-1090 Nicosia<br>Cyprus</td> 
-						</tr>
-						</tbody></table>
-
-
-
-
-						</article>
+						<section class="block">
+							<h2><a href="/erlc/faqs/">FAQ&rsquo;s</a></h2>
+							<p>Have a <a href="/erlc/faqs/">question</a>? Please visit our <a href="/erlc/faqs/">Frequently Asked Questions</a> first, just in case we&rsquo;ve already&nbsp;answered&nbsp;it. </p>
+						</section>
+						<section class="block">
+							<h2><a href="/erlc/speaking/">Events, speaking requests</a></h2>
+							<p><a href="/erlc/speaking/">Submit a request</a> for an ERLC speaker at your next event.<br>(Note: If you are interested in booking an event with Dr. Russell Moore, please visit his website, <a href="http://www.russellmoore.com">russellmoore.com</a>.)</p>
+						</section>
+						<section class="block">
+							<h2>Other question via email</h2>
+							<form id="contact_form" class="form form-horizontal" method="post" action="//erlc.com/">
+								<div class="hiddenFields">
+									<input type="hidden" name="ACT" value="21">
+									<input type="hidden" name="RET" value="http://erlc.com">
+									<input type="hidden" name="URI" value="erlc/contact">
+									<input type="hidden" name="recipients" value="qg+GNtczhWv+lXFqS9DnsJbtaFZuSAKQ69TgQrB1a7M=">
+									<input type="hidden" name="user_recipients" value="7147b0902526571c3b5a959fdd87616c">
+									<input type="hidden" name="charset" value="">
+									<input type="hidden" name="redirect" value="">
+									<input type="hidden" name="replyto" value="">
+									<input type="hidden" name="site_id" value="1">
+									<input type="hidden" name="csrf_token" value="a0a25c166eb2f6eec97bf29f0c09c51ba5ac0621">
+								</div>
+								<div class="form-group">
+									<label for="from" class="col-sm-2 control-label">Your Email:</label>
+									<div class="col-sm-10">
+										<input type="text" id="from" name="from" class="form-control" size="40" maxlength="35">
+										<input type="hidden" id="subject" name="subject" value="ERLC Contact Form">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="message" class="col-sm-2 control-label">Message:</label>
+									<div class="col-sm-10">
+										<textarea id="message" class="form-control" name="message" rows="12" cols="40"></textarea>
+									</div>
+								</div>
+								<div class="btn-group col-sm-offset-2">
+									<input name="submit" type="submit" value="Submit Form" class="btn btn-primary btn-lg">
+								</div>
+							</form>					
+						</section>
+						<section id="mailing_addresses" class="block">
+							<h2>Press/Media Relations</h2>
+							<p><a href="/press/">ERLC.com/Press »</a><br>
+								To request an interview, contact <a href="mailto:ebristow@erlc.com">Carrie Kintz</a> at <a href="mailto:press@erlc.com">press@erlc.com</a>.</p>
+							<h2>Mailing Addresses</h2>
+							<div class="row row-addresses">
+								<address>
+									<b>Washington Office</b><br>505 Second St., N.E.<br>Washington, DC 20002<br>Phone: (202) 547-8105<br>Fax: (202) 547-8165
+								</address>
+								<address>
+									<b>Nashville Office</b><br>901 Commerce Street, Suite 550<br>Nashville, Tennessee 37203<br>Phone: (615) 244-2495<br>Fax: (615) 242-0065          
+								</address>
+								<address>
+									<b>Middle East Office</b><br>Jacovides Tower<br>81-83, Grivas Digenis Avenue<br>CY-1090 Nicosia<br>Cyprus 
+								</address>
+							</div>
+						</section>
+					</article>
 				</div>
 				<div class="sidebar">
 					<nav class="local-nav">

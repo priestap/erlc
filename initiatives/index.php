@@ -7,7 +7,7 @@
 
 <?php include "../includes/head.php" ?>
 
-<body class="subpage about">
+<body class="subpage initiatives">
 	<div class="wrap" id="header_wrap">
 		<?php include "../includes/header.php" ?>
 		<!-- <div class="section-header">
