@@ -1269,6 +1269,77 @@ article {
 	}
 }
 
+// ------------------------------------------------------------- Store
+
+@store-product-gutter: 8px;
+
+.store {
+	.carousel-inner-wrapper {
+		.make-xs-column(12);
+		.make-lg-column(12);
+		padding-bottom: @grid-gutter-width;
+	}
+	.featured-products {
+		&.featured-products-row2 {
+			padding-top: @grid-gutter-width;
+		}
+		> div {
+			.row {
+				margin-left: -@store-product-gutter;
+				margin-right: -@store-product-gutter;
+			}
+		}
+		.ebooks {
+			.make-sm-column(6);
+		}
+		.rm-books {
+			.make-sm-column(6);
+		}
+		.product {
+			.make-xs-column(4);
+			padding: @store-product-gutter;
+			img {
+				.img-responsive;
+			}
+			h3 {
+				font-size: 15px;
+				line-height: 1.3em;
+				margin-top: 10px;
+				.font-serif-heavy;
+			}
+			strong {
+				font-size: 18px;
+			}
+			.regular-price {
+				color: @brand-danger;
+				text-transform: uppercase;
+				font-size: .75em;
+				strong {
+					font-size: 1.5em;
+				}
+			}
+			.sale-price {
+				.sale-type {
+					text-transform: uppercase;
+					color: #888;
+					font-size: 11px;
+				}
+			}
+			.btn {
+				width: 100%;
+				text-shadow: none;
+				&.btn-default {
+					background-color: #eee;
+					.box-shadow(none);
+					&:hover {
+						background-color: darken(#eee, 10%);
+					}
+				}
+			}
+		}
+	}
+}
+
 // ------------------------------------------------------------- Snippet 
 
 .snippet {

@@ -68,7 +68,7 @@
 								
 		          </ul>
 		        </li> -->
-		        <li class="nav-item nav-item-store"><a href="#" class="dropdown-toggle" data-hover="dropdown" data-hover-delay="300" role="button" aria-haspopup="true" aria-expanded="false">Store <span class="caret"></span></a>
+		        <li class="nav-item nav-item-store"><a href="/store/" class="dropdown-toggle" data-hover="dropdown" data-hover-delay="300" role="button" aria-haspopup="true" aria-expanded="false">Store <span class="caret"></span></a>
 		        	<ul class="dropdown-menu">
 		            <li><a href="#">Product Categories</a></li>
 								<li><a href="#">Ebooks</a></li>

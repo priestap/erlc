@@ -51,7 +51,6 @@
 									<h4><a href="/resource-library/article.php">Navigating Through Cultural Confusion</a></h4>
 									<p class="byline">by <a href="author.php" class="name">Matthew Hawkins</a></p>
 								</div>
-								
 			        </div><!-- End Item -->
 			        <div class="item">
 			          <img src="/img/uploads/nigeria.jpg">
@@ -76,42 +75,42 @@
 			        </div><!-- End Item -->
 			      </div><!-- End Carousel Inner -->
 			    </div>
+				  <!-- Carousel Sidebar -->
+			   	<div class="list-group">
+			   		<h2>Rapid Fire</h2>
+			   		<ul>
+				      <li data-target="#heroCarousel" data-slide-to="0" class="list-group-item active">
+				      	<h3><a href="">Navigating Through Cultural Confusion <span class="pipe"> | </span><span class="author">Matthew Hawkins</span></a></h3>
+				      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+				      </li>
+				      <li data-target="#heroCarousel" data-slide-to="1" class="list-group-item">
+				      	<h3><a href="">Praying for the Persecuted Church:&nbsp;Nigeria <span class="pipe"> | </span><span class="author">Matthew Hawkins</span></a></h3>
+				      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+				      </li>
+				      <li data-target="#heroCarousel" data-slide-to="2" class="list-group-item">
+				      	<h3><a href="">Together For the Gospel &rsquo;16 <span class="pipe"> | </span><span class="type">Event</span> <span class="pipe"> | </span><span class="place-time">Louisville, KY, April 12-14 2016</span></a></h3>
+				      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+				      </li>
+				      <li data-target="#heroCarousel" data-slide-to="3" class="list-group-item">
+				      	<h3><a href="">Russell Moore Champions Religious Freedom in Little Sisters of the Poor Supreme Court Case <span class="pipe"> | </span><span class="type">Press</span></a></h3>
+				      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
+				      </li>
 
-			  <!-- Carousel Sidebar -->
-		   	<div class="list-group">
-		   		<h2>Rapid Fire</h2>
-		   		<ul>
-			      <li data-target="#heroCarousel" data-slide-to="0" class="list-group-item active">
-			      	<h3><a href="">Navigating Through Cultural Confusion <span class="pipe"> | </span><span class="author">Matthew Hawkins</span></a></h3>
-			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
-			      </li>
-			      <li data-target="#heroCarousel" data-slide-to="1" class="list-group-item">
-			      	<h3><a href="">Praying for the Persecuted Church:&nbsp;Nigeria <span class="pipe"> | </span><span class="author">Matthew Hawkins</span></a></h3>
-			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
-			      </li>
-			      <li data-target="#heroCarousel" data-slide-to="2" class="list-group-item">
-			      	<h3><a href="">Together For the Gospel &rsquo;16 <span class="pipe"> | </span><span class="type">Event</span> <span class="pipe"> | </span><span class="place-time">Louisville, KY, April 12-14 2016</span></a></h3>
-			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
-			      </li>
-			      <li data-target="#heroCarousel" data-slide-to="3" class="list-group-item">
-			      	<h3><a href="">Russell Moore Champions Religious Freedom in Little Sisters of the Poor Supreme Court Case <span class="pipe"> | </span><span class="type">Press</span></a></h3>
-			      	<p class="hidden-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut.</p>
-			      </li>
+				    </ul>
+			   	</div>
 
-			    </ul>
-		   	</div>
+		      <!-- Controls -->
+		      <div class="carousel-controls">
+	          <a class="left carousel-control" href="#heroCarousel" data-slide="prev">
+	            <span class="ion-chevron-left"></span>
+	          </a>
+	          <a class="right carousel-control" href="#heroCarousel" data-slide="next">
+	            <span class="ion-chevron-right"></span>
+	          </a>
+		      </div>
 
-	      <!-- Controls -->
-	      <div class="carousel-controls">
-          <a class="left carousel-control" href="#heroCarousel" data-slide="prev">
-            <span class="ion-chevron-left"></span>
-          </a>
-          <a class="right carousel-control" href="#heroCarousel" data-slide="next">
-            <span class="ion-chevron-right"></span>
-          </a>
-	      </div>
-
-	    </div><!-- End Carousel -->
+		    </div><!-- End Carousel -->
+			</div>
 		</div>
 	</section>
 

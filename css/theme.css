@@ -10278,6 +10278,103 @@ a.resource-list .resource-tags a:focus {
     margin-left: 6.66666667px;
   }
 }
+.store .carousel-inner-wrapper {
+  float: left;
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+@media (min-width: 1200px) {
+  .store .carousel-inner-wrapper {
+    float: left;
+    width: 100%;
+  }
+}
+.store .featured-products.featured-products-row2 {
+  padding-top: 40px;
+}
+.store .featured-products > div .row {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.store .featured-products .ebooks {
+  position: relative;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .store .featured-products .ebooks {
+    float: left;
+    width: 50%;
+  }
+}
+.store .featured-products .rm-books {
+  position: relative;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (min-width: 768px) {
+  .store .featured-products .rm-books {
+    float: left;
+    width: 50%;
+  }
+}
+.store .featured-products .product {
+  position: relative;
+  float: left;
+  width: 33.33333333%;
+  min-height: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding: 8px;
+}
+.store .featured-products .product img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.store .featured-products .product h3 {
+  font-size: 15px;
+  line-height: 1.3em;
+  margin-top: 10px;
+  font-family: "Archer Heavyweight A", "Archer Heavyweight B";
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+.store .featured-products .product strong {
+  font-size: 18px;
+}
+.store .featured-products .product .regular-price {
+  color: #B70216;
+  text-transform: uppercase;
+  font-size: .75em;
+}
+.store .featured-products .product .regular-price strong {
+  font-size: 1.5em;
+}
+.store .featured-products .product .sale-price .sale-type {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 11px;
+}
+.store .featured-products .product .btn {
+  width: 100%;
+  text-shadow: none;
+}
+.store .featured-products .product .btn.btn-default {
+  background-color: #eee;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.store .featured-products .product .btn.btn-default:hover {
+  background-color: #d5d5d5;
+}
 .snippet {
   margin-left: -20px;
   margin-right: -20px;

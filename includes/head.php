@@ -22,9 +22,9 @@
 	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6439252/6324952/css/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
 	<link rel="stylesheet" type="text/css" href="/css/theme.css" />
+
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="//feeds.feedburner.com/erlc_all" />
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-
 	<!-- For iPhone 4 Retina display: -->
 	<link rel="apple-touch-icon" href="/apple-touch-icon.png?ver=2.0">
   <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon.png?ver=2.0">
