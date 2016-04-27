@@ -48,7 +48,7 @@
 				      </div><!-- End Carousel Inner -->
 				    </div>
 				  </div>
-					<div class="featured-products">
+					<div class="featured-products" strike>
 						<div class="row">
 							<div class="ebooks">
 								<h2>E-Books</h2>
@@ -61,8 +61,9 @@
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -71,14 +72,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/images/uploads/Protecting_Your_Ministry_Cover-01.png" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Protecting Your Ministry (E-book)</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -87,14 +89,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/WOL_Cover.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Women on Life (E-book)</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -108,14 +111,15 @@
 								<div class="row">
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/Onward-1400x1986.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Onward - Bible Study Book</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -124,14 +128,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/Onward_CVR.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Onward: Engaging the Culture without Losing the Gospel</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -140,14 +145,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/Sexual-Brokenness_cover-small.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (Paperback)</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -165,14 +171,15 @@
 								<div class="row">
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/Same-Sex-Marriage-and-the-Future-ebook-cover-small.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Same-Sex Marriage and the Future</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -181,14 +188,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/Engage-Cover.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Engage: A Christian Witness Online</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -197,14 +205,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/QE_eBook_cover-small.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Questions and Ethics</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -218,14 +227,15 @@
 								<div class="row">
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/51KO1pjAClL.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>The Kingdom of Christ: The New Evangelical Perspective</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -234,14 +244,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/41HjKVNz60L.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Tempted and Tried: Temptation and the Triumph of Christ</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -250,14 +261,15 @@
 									</div>
 									<div class="product">
 										<a href="#"><img src="https://erlc.com/ecommerce-files/416HxxfH4WL.jpg" alt="" /></a>
-										<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (E-book)</h3></a>
+										<a href="#"><h3>Adopted for Life: The Priority of Adoption for Christian Families & Churches</h3></a>
 										<div class="product-price">
 											<div class="sale-price">
 												<strong>$2.99</strong>
 												<span class="sale-type">Sale Price</span>
 											</div>
-											<div class="regular-price">
-												<strike>Regular Price: <strong>$4.99</strong></strike>
+											<div class="regular-price strike">
+												<strike><strong>$14.99</strong> 
+												<span class="sale-type">Regular Price</span></strike>
 											</div>
 											<div class="product-learnmore">
 												<a class="btn btn-default" href="#">Learn More</a>
@@ -266,6 +278,200 @@
 									</div>
 								</div>
 							</div>
+						</div>
+					</div>
+
+					<div class="featured-products featured-products-row3 erlc-authors">
+						<h2>ERLC Authors</h2>
+						<div class="row">
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/WOL_Cover.jpg" alt="" /></a>
+								<a href="#"><h3>Same-Sex Marriage and the Future</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/Onward-1400x1986.jpg" alt="" /></a>
+								<a href="#"><h3>Engage: A Christian Witness Online</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/Original_Jesus_Book_Cover.jpg" alt="" /></a>
+								<a href="#"><h3>Questions and Ethics</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/Onward_CVR.jpg" alt="" /></a>
+								<a href="#"><h3>The Kingdom of Christ: The New Evangelical Perspective</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/Light_Subscription_image.png" alt="" /></a>
+								<a href="#"><h3>Tempted and Tried: Temptation and the Triumph of Christ</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/Walker_Teetsel.jpg" alt="" /></a>
+								<a href="#"><h3>Adopted for Life: The Priority of Adoption for Christian Families & Churches</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/Sexual-Brokenness_cover-small.jpg" alt="" /></a>
+								<a href="#"><h3>Same-Sex Marriage and the Future</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/UNITED.jpg" alt="" /></a>
+								<a href="#"><h3>Engage: A Christian Witness Online</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/argue-like-jesus.jpg" alt="" /></a>
+								<a href="#"><h3>Questions and Ethics</h3></a>
+								<div class="product-price">
+									<div class="regular-price ">
+										<strong>$14.99</strong> 
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/TEEN_PEOPLE.jpg" alt="" /></a>
+								<a href="#"><h3>The Kingdom of Christ: The New Evangelical Perspective</h3></a>
+								<div class="product-price">
+									<div class="regular-price">
+										<strong>$14.99</strong>
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/IFAITH.jpg" alt="" /></a>
+								<a href="#"><h3>iFaith: Connecting With God in the 21st Century</h3></a>
+								<div class="product-price">
+									<div class="regular-price">
+										<strong>$14.99</strong>
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/CRASH-COURSE.jpg" alt="" /></a>
+								<a href="#"><h3>Adopted for Life: The Priority of Adoption for Christian Families & Churches</h3></a>
+								<div class="product-price">
+									<div class="regular-price">
+										<strong>$14.99</strong>
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/ACTIVIST-FAITH.jpg" alt="" /></a>
+								<a href="#"><h3>Activist Faith: From Him and For Him</h3></a>
+								<div class="product-price">
+									<div class="regular-price">
+										<strong>$14.99</strong>
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+							<div class="product">
+								<a href="#"><img src="https://erlc.com/ecommerce-files/REAL.jpg" alt="" /></a>
+								<a href="#"><h3>Real: Owning Your Christian Faith</h3></a>
+								<div class="product-price">
+									<div class="regular-price">
+										<strong>$14.99</strong>
+										<span class="sale-type">Regular Price</span>
+									</div>
+									<div class="product-learnmore">
+										<a class="btn btn-default" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+
 						</div>
 					</div>
 				</div>
