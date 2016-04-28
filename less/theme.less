@@ -1272,12 +1272,40 @@ article {
 // ------------------------------------------------------------- Store
 
 @store-product-gutter: 5px;
-
+@carousel-gutter: 0px;
 .store {
+	.carousel {
+		position: relative;
+		.carousel-control {
+			background: rgba(0,0,0,.35) !important;
+			display: block;
+			z-index: 2;
+			width: 40px;
+			height: 50px;
+			position: absolute;
+			top: 50%;
+			margin-top: -25px;
+			> .ion-chevron-left,
+			> .ion-chevron-right {
+				height: 100%;
+				display: block;
+				line-height: 50px;
+			}
+		}
+	}
 	.carousel-inner-wrapper {
 		.make-xs-column(12);
-		.make-lg-column(12);
+		.make-md-column(9);
+		padding-right: @carousel-gutter;
 		padding-bottom: @grid-gutter-width;
+		
+	}
+	.carousel-sidebar {
+		.make-md-column(3);
+		padding-left:@carousel-gutter;
+		@media (max-width: @screen-sm-max) {
+			display: none;
+		}
 	}
 	.featured-products {
 		&.featured-products-row2,
@@ -1304,8 +1332,15 @@ article {
 				margin-right: -@store-product-gutter;
 			}
 			.product {
-				&:nth-child(4n+1) {
-					clear: both;
+				@media (max-width: @screen-xs-max) {
+					&:nth-child(odd) {
+						clear: both;
+					}
+				}
+				@media (min-width: @screen-sm-min) {
+					&:nth-child(4n+1) {
+						clear: both;
+					}
 				}
 				.make-sm-column(3);
 				padding-left: @store-product-gutter;
@@ -1318,11 +1353,27 @@ article {
 				position: relative;
 				padding-bottom: 100px;
 				margin-bottom: @grid-gutter-width;
-				min-height: 470px !important;
+				@media (min-width: @screen-xs-min) {
+					min-height: 435px;
+				}
+				@media (min-width: @screen-sm-min) {
+					min-height: 435px;
+				}
+				@media (min-width: @screen-md-min) {
+					min-height: 470px;
+				}
+				@media (min-width: @screen-lg-min) {
+					min-height: 500px;
+				}
 			}
-			.make-xs-column(3);
+			.make-xs-column(6);
+			.make-sm-column(3);
 			padding: @store-product-gutter;
-			
+			@media (max-width: @screen-xs-max) {
+					&:nth-child(odd) {
+						clear: both;
+					}
+				}
 
 			img {
 				.img-responsive;
@@ -1381,6 +1432,8 @@ article {
 		}
 	}
 }
+
+
 
 // ------------------------------------------------------------- Snippet 
 

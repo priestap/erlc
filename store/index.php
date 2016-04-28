@@ -34,16 +34,34 @@
 	<article id="content" role="main">
 		<div class="container">
 			<div class="row">
-				<div class="carousel-inner-wrapper">
-		      <!-- Wrapper for slides -->
-		      <div class="carousel-inner">
-		        <div class="item active">
-							<a href="#"><img src="/img/uploads/Engage_Slider_for_Store.jpg" alt=""></a>
-		        </div><!-- End Item -->
-		        <div class="item">
-		          <a href="#"><img src="/img/uploads/Light_Slider_for_Store.jpg"></a>
-		        </div><!-- End Item -->
-		      </div><!-- End Carousel Inner -->
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner-wrapper">
+			      <!-- Wrapper for slides -->
+			      <div class="carousel-inner">
+			        <div class="item active">
+								<a href="#"><img src="/img/uploads/Engage_Slider_for_Store.jpg" alt=""></a>
+			        </div><!-- End Item -->
+			        <div class="item">
+			          <a href="#"><img src="/img/uploads/Light_Slider_for_Store.jpg"></a>
+			        </div><!-- End Item -->
+			        <div class="item">
+			          <a href="#"><img src="https://erlc.com/ecommerce-files/Light_Slider_for_Store.jpg"></a>
+			        </div><!-- End Item -->
+			        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+						    <span class="ion-chevron-left" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+						    <span class="ion-chevron-right" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
+			      </div><!-- End Carousel Inner -->
+			    </div>
+					<!-- Controls -->
+				  
+			  </div>
+		    <div class="carousel-sidebar">
+		    	<a href=""><img class="img-responsive" src="/img/The_Weekly_for_ERLC_Store_Ad.jpg" alt /></a>
 		    </div>
 		  </div>
 			<div class="row">
