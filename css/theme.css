@@ -8294,9 +8294,6 @@ a:hover {
 .site-header .navbar-default .navbar-nav.utility-nav > li > a:hover {
   color: #086291;
 }
-#header_wrap {
-  transition: all 0.4s ease;
-}
 #header_wrap .container {
   background-color: #fff;
 }
