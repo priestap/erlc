@@ -27,28 +27,29 @@
 	<meta property="og:image" content="//erlc.com/img/erlc-logo-200.png" />
 </head>
 
-<body class="subpage store full-width">
+<body class="subpage store">
 	<div class="wrap" id="header_wrap">
 		<?php include "../includes/header.php" ?>
 	</div>
 	<article id="content" role="main">
 		<div class="container">
 			<div class="row">
+				<div class="carousel-inner-wrapper">
+		      <!-- Wrapper for slides -->
+		      <div class="carousel-inner">
+		        <div class="item active">
+							<a href="#"><img src="/img/uploads/Engage_Slider_for_Store.jpg" alt=""></a>
+		        </div><!-- End Item -->
+		        <div class="item">
+		          <a href="#"><img src="/img/uploads/Light_Slider_for_Store.jpg"></a>
+		        </div><!-- End Item -->
+		      </div><!-- End Carousel Inner -->
+		    </div>
+		  </div>
+			<div class="row">
 				<div class="main">
-					<div class="row">
-						<div class="carousel-inner-wrapper">
-				      <!-- Wrapper for slides -->
-				      <div class="carousel-inner">
-				        <div class="item active">
-									<a href="#"><img src="/img/uploads/Engage_Slider_for_Store.jpg" alt=""></a>
-				        </div><!-- End Item -->
-				        <div class="item">
-				          <a href="#"><img src="/img/uploads/Light_Slider_for_Store.jpg"></a>
-				        </div><!-- End Item -->
-				      </div><!-- End Carousel Inner -->
-				    </div>
-				  </div>
-					<div class="featured-products" strike>
+					
+					<div class="featured-products">
 						<div class="row">
 							<div class="ebooks">
 								<h2>E-Books</h2>
@@ -110,8 +111,30 @@
 											</div>
 										</div>
 									</div>
+									<div class="product">
+										<div class="product-inner">
+											<a href="#"><img src="https://erlc.com/ecommerce-files/Onward_CVR.jpg" alt="" /></a>
+											<a href="#"><h3>Onward: Engaging the Culture without Losing the Gospel (E-book)</h3></a>
+											<div class="product-price">
+												<div class="sale-price">
+													<strong>$2.99</strong>
+													<span class="sale-type">Sale Price</span>
+												</div>
+												<div class="regular-price strike">
+													<strike><strong>$14.99</strong> 
+													<span class="sale-type">Reg. Price</span></strike>
+												</div>
+												<div class="product-learnmore">
+													<a class="btn btn-default" href="#">Learn More</a>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
 							</div>
+							
+						</div>
+						<div class="row">
 							<div class="rm-books">
 								<h2>Books by Russell Moore</h2>
 								<div class="row">
@@ -155,6 +178,25 @@
 									</div>
 									<div class="product">
 										<div class="product-inner">
+											<a href="#"><img src="https://erlc.com/ecommerce-files/Same-Sex-Marriage-and-the-Future-ebook-cover-small.jpg" alt="" /></a>
+											<a href="#"><h3>Same-Sex Marriage and the Future</h3></a>
+											<div class="product-price">
+												<div class="sale-price">
+													<strong>$2.99</strong>
+													<span class="sale-type">Sale Price</span>
+												</div>
+												<div class="regular-price strike">
+													<strike><strong>$14.99</strong> 
+													<span class="sale-type">Reg. Price</span></strike>
+												</div>
+												<div class="product-learnmore">
+													<a class="btn btn-default" href="#">Learn More</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="product">
+										<div class="product-inner">
 											<a href="#"><img src="https://erlc.com/ecommerce-files/Sexual-Brokenness_cover-small.jpg" alt="" /></a>
 											<a href="#"><h3>Sexual Brokenness and the Hope of the Gospel (Paperback)</h3></a>
 											<div class="product-price">
@@ -180,25 +222,7 @@
 						<div class="row">
 							<div class="ebooks">
 								<div class="row">
-									<div class="product">
-										<div class="product-inner">
-											<a href="#"><img src="https://erlc.com/ecommerce-files/Same-Sex-Marriage-and-the-Future-ebook-cover-small.jpg" alt="" /></a>
-											<a href="#"><h3>Same-Sex Marriage and the Future</h3></a>
-											<div class="product-price">
-												<div class="sale-price">
-													<strong>$2.99</strong>
-													<span class="sale-type">Sale Price</span>
-												</div>
-												<div class="regular-price strike">
-													<strike><strong>$14.99</strong> 
-													<span class="sale-type">Reg. Price</span></strike>
-												</div>
-												<div class="product-learnmore">
-													<a class="btn btn-default" href="#">Learn More</a>
-												</div>
-											</div>
-										</div>
-									</div>
+
 									<div class="product">
 										<div class="product-inner">
 											<a href="#"><img src="https://erlc.com/ecommerce-files/Engage-Cover.jpg" alt="" /></a>
@@ -237,11 +261,6 @@
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="rm-books">
-
-								<div class="row">
 									<div class="product">
 										<div class="product-inner">
 											<a href="#"><img src="https://erlc.com/ecommerce-files/51KO1pjAClL.jpg" alt="" /></a>
@@ -280,6 +299,12 @@
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+							<!-- <div class="rm-books">
+
+								<div class="row">
+									
 									<div class="product">
 										<div class="product-inner">
 											<a href="#"><img src="https://erlc.com/ecommerce-files/416HxxfH4WL.jpg" alt="" /></a>
@@ -300,7 +325,7 @@
 										</div>
 									</div>
 								</div>
-							</div>
+							</div> -->
 						</div>
 					</div>
 
@@ -523,11 +548,11 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="sidebar">
+				<div class="sidebar">
 					<nav class="local-nav">
 						<?php include "_store_sidebar.php" ?>
 					</nav>
-        </div> -->
+        </div>
 			</div>
 		</div>   
 	</div>
