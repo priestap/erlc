@@ -38,69 +38,107 @@
 					<div class="hero">
 						<div class="post">
 		          <div class="hero-image">
-		            <a href="/events/event.php"><img src="/img/event-banner-wide.jpg" class="img-responsive" /></a>
+		            <a href="/events/event.php"><img src="/img/uploads/event-banner-lg.jpg" class="img-responsive" /></a>
 		            <!-- <div class="badges"><span class="badge"><a href="#">Politics</a></span><span class="badge"><a href="#">Pro-life</a></span></div>   -->
 		          </div>
 		        </div>
 					</div>
-					<h2>Upcoming Events</h2>
-					<div class="latest-posts">
-						<ul class="list-unstyled posts">
-							<li>
-		            <div class="post post-thumb">
-	                <div class="post-img-content">
-	                  <a href="/events/event.php"><img src="/img/event-banner-catcg.png" class="img-responsive" /></a>
-	                </div>
-	                <div class="post-content">
-	                  <div>
-	                  	<h3><a href="/events/event.php">Leadership Summit 2016</a></h3>
-	                  	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</p>
-	                    
-	                  </div>
-	                </div>
+					<div class="upcoming-events">
+						<h2 class="text-center">Upcoming Events</h2>
+						<h3 class="text-center">2016</h3>
+						<div class="events-stack">
+							<div class="event">
+	            	<h4><a href="/events/event.php">Leadership Summit 2016 <i class="ion-chevron-right"></i></a></h4>
+	            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</p>
+	            </div>
+	            <div class="event">
+						  	<h4><a href="/events/event.php">ERLC National Conference 2016 <i class="ion-chevron-right"></i></a></h4>
+						  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</p>
+					  	</div>
+	            <div class="event">
+	            	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
+	            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</p>
+	            </div>
+	            <div class="event">
+						  	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
+						  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</p>
+					  	</div>
+					  	<br>
+							<h3 class="text-center">2017</h3>
+							<div class="events-stack">
+								<div class="event">
+		            	<h4><a href="/events/event.php">Leadership Summit 2016 <i class="ion-chevron-right"></i></a></h4>
+		            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</p>
 		            </div>
-		           </li>
-		           <li>
-		            <div class="post post-thumb">
-									<div class="post-img-content">
-									  <a href="/events/event.php"><img src="/img/event-banner-wide.jpg" class="img-responsive" /></a>
-									</div>
-									<div class="post-content">
-									  <div>
-									  	<h3><a href="/events/event.php">ERLC National Conference 2016</a></h3>
-									  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</p>
-								  	</div>
-									</div>
-								</div>
-							</li>
-							<li>
-		            <div class="post post-thumb">
-	                <div class="post-img-content">
-	                  <a href="/resource-library/article.php"><img src="http://placehold.it/530x177/333333/444444" class="img-responsive" /></a>
-	                </div>
-	                <div class="post-content">
-	                  <div>
-	                  	<h3><a href="/events/event.php">Leadership Summit 2017</a></h3>
-	                  	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</p>
-	                    
-	                  </div>
-	                </div>
+		            <div class="event">
+							  	<h4><a href="/events/event.php">ERLC National Conference 2016 <i class="ion-chevron-right"></i></a></h4>
+							  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</p>
+						  	</div>
+		            <div class="event">
+		            	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
+		            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</p>
 		            </div>
-		           </li>
-		           <li>
-		            <div class="post post-thumb">
-									<div class="post-img-content">
-									  <a href="/events/event.php"><img src="http://placehold.it/530x177/333333/444444" class="img-responsive" /></a>
+		            <div class="event">
+							  	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
+							  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</p>
+						  	</div>
+						  </div>
+							<!-- <ul class="list-unstyled posts">
+								<li>
+			            <div class="post post-thumb">
+		                <div class="post-img-content">
+		                  <a href="/events/event.php"><img src="/img/event-banner-catcg.png" class="img-responsive" /></a>
+		                </div>
+		                <div class="post-content">
+		                  <div>
+		                  	<h3><a href="/events/event.php">Leadership Summit 2016</a></h3>
+		                  	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</p>
+		                  </div>
+		                </div>
+			            </div>
+			           </li>
+			           <li>
+			            <div class="post post-thumb">
+										<div class="post-img-content">
+										  <a href="/events/event.php"><img src="/img/event-banner-wide.jpg" class="img-responsive" /></a>
+										</div>
+										<div class="post-content">
+										  <div>
+										  	<h3><a href="/events/event.php">ERLC National Conference 2016</a></h3>
+										  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</p>
+									  	</div>
+										</div>
 									</div>
-									<div class="post-content">
-									  <div>
-									  	<h3><a href="/events/event.php">ERLC National Conference 2017</a></h3>
-									  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</p>
-								  	</div>
+								</li>
+								<li>
+			            <div class="post post-thumb">
+		                <div class="post-img-content">
+		                  <a href="/resource-library/article.php"><img src="http://placehold.it/600x200/333333/444444" class="img-responsive" /></a>
+		                </div>
+		                <div class="post-content">
+		                  <div>
+		                  	<h3><a href="/events/event.php">Leadership Summit 2017</a></h3>
+		                  	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</p>
+		                    
+		                  </div>
+		                </div>
+			            </div>
+			           </li>
+			           <li>
+			            <div class="post post-thumb">
+										<div class="post-img-content">
+										  <a href="/events/event.php"><img src="http://placehold.it/600x200/333333/444444" class="img-responsive" /></a>
+										</div>
+										<div class="post-content">
+										  <div>
+										  	<h3><a href="/events/event.php">ERLC National Conference 2017</a></h3>
+										  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</p>
+									  	</div>
+										</div>
 									</div>
-								</div>
-							</li>               
-						</ul>
+								</li>               
+							</ul> -->
+						</div>
 					</div>
 				</div>
 				<!-- <div class="sidebar">
