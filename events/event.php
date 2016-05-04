@@ -49,9 +49,9 @@
 		      <ul class="nav navbar-nav navbar-right">
 		        <!-- <li class="nav-item nav-item-logo"><a href="/"><img src="/img/erlc_logo_mark.svg" height="40" width="40" alt="ERLC Logo"></a></li> -->
 		        <li class="nav-item nav-item-home dropdown"><a href="#" >Home</a></li>
-		        <li class="nav-item nav-item-speakers"><a href="/#speakers" >Speakers</a></li>
-		        <li class="nav-item nav-item-speakers"><a href="/#speakers" >Schedule</a></li>
-		        <li class="nav-item nav-item-speakers"><a href="/#speakers" >Location</a></li>
+		        <li class="nav-item nav-item-speakers"><a href="#speakers" >Speakers</a></li>
+		        <li class="nav-item nav-item-speakers"><a href="#schedule" >Schedule</a></li>
+		        <li class="nav-item nav-item-speakers"><a href="#location" >Location</a></li>
 		        <li class="nav-item nav-item-store"><a href="#register" >Register</a></li>
 
 		      </ul>
@@ -86,7 +86,7 @@
 							</section>
 							
 						</div>
-						<section class="speakers" class="section">
+						<section id="speakers" class="section">
 							<h2>Speakers</h2>
 							<ul class="list-unstyled speakers">
 								<li class="speaker">
@@ -518,10 +518,140 @@
 								</li>
 							</ul>
 						</section>
-						<section id="register">
-							
+						<section id="schedule" class="section">
+							<h2>Schedule</h2>
 							<div class="container narrow">
-								<h2>Register</h2>
+							
+							<p>The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
+								<p>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.<br>
+								&nbsp;</p>
+
+								<h3><strong>Keynotes</strong></h3>
+
+								<p>Matt Chandler, <em><strong>Unbuckling the Bible Belt: Cultural engagement in the Capital of Cultural Christianity</strong></em></p>
+								<p>Andy Crouch, <em><strong>Strong and Weak: Embracing a Life of Love, Risk, and True Flourishing</strong></em></p>
+								<p>Russell Moore, <em><strong>Onward: Engaging the Culture without Losing the Gospel</strong></em></p>
+								<p>Bryan Loritts, <em><strong>Right Color, Wrong Culture: Pursuing Multi-ethnic Cultural Engagement</strong></em></p>
+								<p>Andy Stanley, <em><strong>Preaching, and Cultural Engagement: A Conversation with Russell Moore</strong></em></p>
+
+								<h3><br>
+								<strong>Talks&nbsp;</strong></h3>
+
+								<p>Mike Cosper, <em><strong>Yes The Stories We Tell: How TV and Movies Long for and Echo the Truth</strong></em></p>
+								<p>Robby Gallaty, <em><strong>Making Disciples who Engage the Culture</strong></em></p>
+								<p>Greg Thornbury, <em><strong>Cain, Abel, and Kanye: The Gospel and Pop Culture</strong></em></p>
+								<p>Trip Lee, <em><strong>The Good Life: Christian Hip Hop and Cultural Engagement</strong></em></p>
+								<p>DA Horton, <em><strong>For the City: Race, Urban Ministry, and Cultural Engagement</strong></em></p>
+								<p>Gabe Lyons, <em><strong>Good Faith: Being a Christian When Society Thinks You're Irrelevant and Extreme</strong></em></p>
+								<p>Ben Stuart, <em><strong>God, Guys, and Girls: Pursuing Sexual Purity in a Porn Culture</strong></em></p>
+
+								
+
+								<h3><strong>Plenary Panels</strong></h3>
+
+								<p><em><strong><em>State of the Art: How the Gospel Shapes our Engagement with the Arts&nbsp;</em></strong></em></p>
+
+								<p>Mike Cosper<br>
+								Alissa Wilkinson<br>
+								Karen Swallow Prior<br>
+								Steven Bush</p>
+
+								<p><em><strong>2016 and Beyond: Reshaping Evangelical Political Engagement</strong></em></p>
+
+								<p>Andrew Walker<br>
+								Bruce Ashford<br>
+								Jennifer Marshall</p>
+
+								<p><em><strong>Every Square Inch: How Cultural Engagement Intersects with Everyday Life</strong></em></p>
+
+								<p>Daniel Patterson<br>
+								Jared Wilson<br>
+								Matt Anderson<br>
+								Trevin Wax<br>
+								Jackie Hill Perry<br>
+								DA Horton</p>
+
+								<p><em><strong>Shepherding the Flock: Pastoral Ministry and Cultural Engagement</strong></em></p>
+
+								<p>Dan Darling<br>
+								Robby Gallaty<br>
+								Kevin Cawley<br>
+								Greg Thompson<br>
+								Bryan Loritts<br>
+								Matt Chandler</p>
+
+								<h3><strong>Breakouts</strong></h3>
+
+								<p><em><strong>Sports and Cultural Engagement</strong></em></p>
+
+								<p>David Prince</p>
+
+								<p><em><strong>Race and Cultural Engagement</strong></em></p>
+
+								<p harris="" steven="">Trillia Newbell<br>
+								Jemar Tisby<br>
+								DA Horton<br>
+								Matt Hall<br>
+								Steven Harris</p>
+
+								<p><em><strong>Milennials and Cultural Engagement</strong></em></p>
+
+								<p dean="" inserra="">Ben Stuart<br>
+								Mike Glenn<br>
+								Gregg Matte<br>
+								JR Vassar<br>
+								Jackie Hill Perry<br>
+								Dean Inserra</p>
+
+								<p><em><strong>Sexuality, Religious Liberty, and Cultural Engagement</strong></em></p>
+
+								<p andrew="" walker="">Barrett Duke<br>
+								Jennifer Marshall<br>
+								Andrew Walker</p>
+
+								<p><em><strong>Parenting and Cultural Engagement</strong></em></p>
+
+								<p>Randy Stinson<br>
+								Jimmy Scroggins<br>
+								David Prince</p>
+
+								<p><em><strong>Women and Cultural Engagement</strong></em></p>
+
+								<p>Lindsay Swartz<br>
+								Trillia Newbell<br>
+								Karen Swallow Prior<br>
+								Jennifer Marshall<br>
+								Jackie Hill Perry<br>
+								Alissa Wilkinson</p>
+							</div>
+						</section>
+						<section id="location" class="section">
+							<h2>Location</h2>
+							<div class="container narrow">
+								<p>The event will take place at the iconic <a href="http://www.marriott.com/hotels/travel/bnago-gaylord-opryland">Gaylord Opryland Resort</a> in Nashville, TN. Single/double occupancy rooms are $179/night plus a daily resort fee of $18/day. Rooms can be booked online <a href="https://aws.passkey.com/g/57530300">here</a> or&nbsp;by calling 615-889-1000 and mentioning you are attending the ERLC National Conference. Check in is 3:00 PM CT with check out at 11:00 AM CT.</p>
+
+	
+
+								<h3>FAQs</h3>			
+
+								<p class="question"><strong>Q: Can I get a refund if I am unable to attend?</strong></p>
+
+								<p class="answer">A: If you need to cancel before July 15, 2016, please visit the registration page or contact us at events@erlc.com and you will receive a full refund. If you are cancelling on or after July 15, 2016, no refunds will be provided.</p>
+
+								<p class="question"><strong>Q: I cannot attend the conference. Will you offer live-streaming of the event?</strong></p>
+
+								<p class="answer">A: We are planning to live-stream the plenary addresses on erlc.com and post those sessions on our site shortly after the event.</p>
+
+								<p class="question"><strong>Q: Can my church simulcast the event?</strong></p>
+
+								<p class="answer">A: A simulcast of the National Conference will be available for free. A simulcast is a live internet broadcast of an event from a single venue into multiple venues – such as your own environment. Thus a simultaneous event occurs in both the origin venue and in many satellite locations — your church, home or laptop. Learn more about the simulcast <a href="http://erlc.com/documents/pdf/GENERAL_FAQS_-_Hosting_a_Lifeway_Simulcast_072914update.pdf">here</a>.</p>
+
+							</div>
+						</section>
+						<section id="register" class="section">
+							<h2>Register</h2>
+							<div class="container narrow">
+								
 								<iframe allowtransparency="true" frameborder="0" height="400" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" src="https://www.eventbrite.com/tickets-external?eid=21729915763&ref=etckt" vspace="0" width="100%"></iframe>
 							</div>
 						</section>

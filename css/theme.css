@@ -10262,6 +10262,17 @@ a.resource-list .resource-tags a:focus {
   margin-left: -20px;
   margin-right: -20px;
   text-align: center;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .speakers {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .speakers .speaker:nth-child(2n+1) {
+    clear: both;
+  }
 }
 @media (min-width: 768px) {
   .speakers {
@@ -10272,7 +10283,7 @@ a.resource-list .resource-tags a:focus {
 .speakers .speaker {
   padding-bottom: 80px;
   float: left;
-  width: 100%;
+  width: 50%;
   position: relative;
   min-height: 1px;
   padding-left: 20px;
@@ -10281,7 +10292,7 @@ a.resource-list .resource-tags a:focus {
 @media (min-width: 768px) {
   .speakers .speaker {
     float: left;
-    width: 33.33333333%;
+    width: 25%;
   }
 }
 @media (min-width: 1250px) {
@@ -10290,8 +10301,19 @@ a.resource-list .resource-tags a:focus {
     width: 25%;
   }
 }
+@media (min-width: 768px) {
+  .speakers .speaker:nth-child(4n+1) {
+    clear: both;
+  }
+}
 .speakers .speaker .speaker-photo {
   text-align: center;
+}
+.speakers .speaker .speaker-photo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
 }
 .speakers .speaker .speaker-info p {
   display: none;
@@ -10315,6 +10337,9 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail {
   background: #fff;
+}
+.event-detail h2 {
+  text-align: center;
 }
 .event-detail p {
   font-size: 20px;
@@ -10395,6 +10420,9 @@ a.resource-list .resource-tags a:focus {
   padding-bottom: 20px;
   font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
+}
+.event-detail .jumbotron .btn-lg:hover {
+  color: #fff;
 }
 .event-detail .section {
   padding-top: 40px;
