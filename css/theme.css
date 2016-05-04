@@ -8853,20 +8853,23 @@ a:hover {
     width: 25%;
   }
 }
-.full-width.subpage .main {
+.full-width.subpage .main,
+.full-width.event-detail .main {
   position: relative;
   min-height: 1px;
   padding-left: 20px;
   padding-right: 20px;
 }
 @media (min-width: 768px) {
-  .full-width.subpage .main {
+  .full-width.subpage .main,
+  .full-width.event-detail .main {
     float: left;
     width: 100%;
   }
 }
 @media (min-width: 768px) {
-  .full-width.subpage .main {
+  .full-width.subpage .main,
+  .full-width.event-detail .main {
     border-right: none;
   }
 }
@@ -10151,9 +10154,6 @@ a.resource-list .resource-tags a:focus {
   max-width: 100%;
   height: auto;
 }
-.event .tab-pane {
-  padding-top: 40px;
-}
 .upcoming-events h2 {
   background-color: #fff;
 }
@@ -10316,23 +10316,60 @@ a.resource-list .resource-tags a:focus {
 .event-detail {
   background: #fff;
 }
+.event-detail p {
+  font-size: 20px;
+}
 .event-detail .container {
   background: transparent;
+}
+.event-detail .container.narrow {
+  max-width: 767px;
 }
 .event-detail #header_wrap .container {
   background-color: transparent;
 }
+.event-detail .navbar-brand {
+  float: left !important;
+}
+.event-detail .site-header .navbar-default {
+  background-color: rgba(255, 255, 255, 0.95);
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
 .event-detail .site-header .navbar-default .navbar-nav {
   padding-bottom: 0;
 }
+.event-detail .site-header .navbar-default .navbar-nav.navbar-right {
+  margin-right: 40px;
+}
+.event-detail .site-header .navbar-default .navbar-nav > li.nav-item-logo > a {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.event-detail .site-header .navbar-default .navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 18px;
+  font-weight: 200;
+}
 .event-detail .jumbotron {
   background-color: #333;
+  background: url(/img/uploads/event-hero-bg.jpg) fixed top center no-repeat;
   color: #fff;
   text-align: center;
-  padding: 120px 0;
+  padding: 200px 0 80px;
+}
+.event-detail .jumbotron:before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: block;
 }
 .event-detail .jumbotron h1 {
   font-size: 3.8em;
+  font-weight: 800;
 }
 @media (max-width: 767px) {
   .event-detail .jumbotron h1 {
@@ -10341,7 +10378,7 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail .jumbotron .subtitle {
   font-size: 1.8em;
-  color: #ccc;
+  color: #fff;
   line-height: 1.3em;
   margin-bottom: 1em;
 }
@@ -10353,6 +10390,9 @@ a.resource-list .resource-tags a:focus {
 .event-detail .jumbotron .btn-lg {
   min-width: 300px;
   border: none;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
 }
@@ -10365,24 +10405,18 @@ a.resource-list .resource-tags a:focus {
   padding-top: 40px !important;
   padding-bottom: 40px;
 }
-.event-detail #intro {
-  float: left;
-  width: 100%;
-  position: relative;
-  min-height: 1px;
-  padding-left: 20px;
-  padding-right: 20px;
+.event-detail footer {
+  background-color: #333;
 }
-@media (min-width: 992px) {
-  .event-detail #intro {
-    float: left;
-    width: 66.66666667%;
-  }
+.event-detail footer .social-links {
+  border: none;
+  padding-top: 0;
+  margin-top: 0;
 }
-@media (min-width: 992px) {
-  .event-detail #intro {
-    margin-left: 16.66666667%;
-  }
+.event-detail footer .legal {
+  border: none;
+  padding-top: 0;
+  margin-top: 0;
 }
 .question {
   margin-bottom: 0;
