@@ -209,8 +209,7 @@
 					& > a {
 						padding-top: 30px;
 						padding-bottom: 30px;
-						font-size: 18px;
-						font-weight: 200;
+						
 					}
 				}
 			}
@@ -221,7 +220,10 @@
 		background: url(/img/uploads/event-hero-bg.jpg) fixed top center no-repeat;
 		color: #fff;
 		text-align: center;
-		padding: @grid-gutter-width*5 0 @grid-gutter-width*2;
+		padding: @grid-gutter-width*7 0 @grid-gutter-width*2;
+		@media (max-width: @screen-xs-max) {
+			padding-top: @grid-gutter-width*3;
+		}
 		&:before {
 			content: "";
 			background-color: rgba(0,0,0,.3);

@@ -10374,15 +10374,18 @@ a.resource-list .resource-tags a:focus {
 .event-detail .site-header .navbar-default .navbar-nav > li > a {
   padding-top: 30px;
   padding-bottom: 30px;
-  font-size: 18px;
-  font-weight: 200;
 }
 .event-detail .jumbotron {
   background-color: #333;
   background: url(/img/uploads/event-hero-bg.jpg) fixed top center no-repeat;
   color: #fff;
   text-align: center;
-  padding: 200px 0 80px;
+  padding: 280px 0 80px;
+}
+@media (max-width: 767px) {
+  .event-detail .jumbotron {
+    padding-top: 120px;
+  }
 }
 .event-detail .jumbotron:before {
   content: "";
