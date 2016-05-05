@@ -66,7 +66,7 @@
 			<div class="row">
 				<div class="main">
 					<header class="jumbotron" style="background: url(/img/uploads/event-hero-bg2.jpg) fixed top center no-repeat;">
-						<div class="container">
+						<div class="">
 							<a class="back" href="index.php"><i class="ion-chevron-left"></i> Events</a>
 							<p class="pre-title">2016 ERLC National Conference</p>
 						  <h1 class="article-title">Onward</h1>
