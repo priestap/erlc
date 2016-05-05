@@ -10380,9 +10380,11 @@ a.resource-list .resource-tags a:focus {
   padding-top: 10px;
   padding-bottom: 0;
 }
-.event-detail .site-header .navbar-default .navbar-nav > li > a {
-  padding-top: 30px;
-  padding-bottom: 30px;
+@media (min-width: 992px) {
+  .event-detail .site-header .navbar-default .navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 .event-detail .jumbotron {
   background-color: #333;
