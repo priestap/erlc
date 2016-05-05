@@ -10386,10 +10386,10 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail .jumbotron {
   background-color: #333;
-  background: url(/img/uploads/event-hero-bg.jpg) fixed top center no-repeat;
+  background-size: cover;
   color: #fff;
   text-align: center;
-  padding: 280px 0 80px;
+  padding: 200px 0 80px;
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
@@ -10405,9 +10405,37 @@ a.resource-list .resource-tags a:focus {
   z-index: 1;
   display: block;
 }
+.event-detail .jumbotron .back {
+  position: absolute;
+  top: 100px;
+  left: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  background: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+.event-detail .jumbotron .back > i {
+  margin-right: 4px;
+}
+.event-detail .jumbotron .back:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.event-detail .jumbotron .pre-title {
+  font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
 .event-detail .jumbotron h1 {
-  font-size: 3.8em;
+  font-size: 9em;
   font-weight: 800;
+  text-transform: uppercase;
 }
 @media (max-width: 767px) {
   .event-detail .jumbotron h1 {
@@ -10419,11 +10447,22 @@ a.resource-list .resource-tags a:focus {
   color: #fff;
   line-height: 1.3em;
   margin-bottom: 1em;
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 @media (max-width: 767px) {
   .event-detail .jumbotron .subtitle {
     font-size: 1.2em;
   }
+}
+.event-detail .jumbotron .location {
+  font-family: "Archer Heavyweight A", "Archer Heavyweight B";
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0;
+  font-size: 1.8em;
+  font-weight: 400;
 }
 .event-detail .jumbotron .btn-lg {
   min-width: 300px;
@@ -10433,6 +10472,7 @@ a.resource-list .resource-tags a:focus {
   padding-bottom: 20px;
   font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   margin-bottom: 0;
+  background-color: #0C99D3;
 }
 .event-detail .jumbotron .btn-lg:hover {
   color: #fff;
@@ -10442,7 +10482,7 @@ a.resource-list .resource-tags a:focus {
   padding-bottom: 40px;
 }
 .event-detail h2 {
-  font-size: 50px;
+  font-size: 60px;
   border-top: none;
   padding-top: 40px !important;
   padding-bottom: 40px;
@@ -10473,6 +10513,7 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail #schedule .container {
   background-color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 @media (min-width: 768px) {
   .event-detail #schedule .container {
@@ -10500,6 +10541,9 @@ a.resource-list .resource-tags a:focus {
 .event-detail footer {
   background-color: #333;
   margin-top: 0;
+}
+.event-detail footer.site-footer .container {
+  padding-bottom: 40px;
 }
 .event-detail footer .social-links {
   border: none;

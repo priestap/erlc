@@ -38,7 +38,7 @@
 					<div class="hero">
 						<div class="post">
 		          <div class="hero-image">
-		            <a href="/events/event.php"><img src="/img/uploads/event-banner-lg.jpg" class="img-responsive" /></a>
+		            <a href="/events/event.php"><img src="/img/uploads/event-banner-lg2.jpg" class="img-responsive" /></a>
 		            <!-- <div class="badges"><span class="badge"><a href="#">Politics</a></span><span class="badge"><a href="#">Pro-life</a></span></div>   -->
 		          </div>
 		        </div>

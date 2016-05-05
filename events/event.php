@@ -65,12 +65,14 @@
 
 			<div class="row">
 				<div class="main">
-					<header class="jumbotron">
+					<header class="jumbotron" style="background: url(/img/uploads/event-hero-bg2.jpg) fixed top center no-repeat;">
 						<div class="container">
-						  <h1 class="article-title">ERLC National Conference 2016</h1>
-							<p class="subtitle">Gaylord Opryland Resort &amp; Convention Center<br>
-							August 25-26th, 2016</p>
-						  <p><a class="btn btn-primary btn-lg" href="#" role="button">Register</a></p>
+							<a class="back" href="index.php"><i class="ion-chevron-left"></i> Events</a>
+							<p class="pre-title">2016 ERLC National Conference</p>
+						  <h1 class="article-title">Onward</h1>
+							<p class="subtitle">Engaging the Culture Without Losing the Gospel</p>
+						  <p><a class="btn btn-primary btn-lg" href="#register" role="button">Register Now</a></p>
+						  <p class="location">August 25-26th  |  Nashville, TN</p>
 						</div>
 					</header>
 					<div class="article-body">

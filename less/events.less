@@ -220,10 +220,10 @@
 	}
 	.jumbotron {
 		background-color: #333;
-		background: url(/img/uploads/event-hero-bg.jpg) fixed top center no-repeat;
+		background-size: cover;
 		color: #fff;
 		text-align: center;
-		padding: @grid-gutter-width*7 0 @grid-gutter-width*2;
+		padding: @grid-gutter-width*5 0 @grid-gutter-width*2;
 		margin-bottom: 0;
 		@media (max-width: @screen-xs-max) {
 			padding-top: @grid-gutter-width*3;
@@ -236,9 +236,35 @@
 			z-index: 1;
 			display: block;
 		}
+		.back {
+			position: absolute;
+			top: 100px;
+			left: 60px;
+			color: #fff;
+			text-transform: uppercase;
+			font-size: 14px;
+			.opacity(.7);
+			background: rgba(0,0,0,.2);
+			display: inline-block;
+			padding: 4px 8px;
+			border-radius: 2px;
+			> i {
+				margin-right: 4px;
+			}
+			&:hover {
+				.opacity(1);
+			}
+		}
+		.pre-title {
+			.font-sans;
+			text-transform: uppercase;
+			font-weight: 200;
+			letter-spacing: 1px;
+		}
 		h1 {
-			font-size: 3.8em;
+			font-size: 9em;
 			font-weight: 800;
+			text-transform: uppercase;
 			@media (max-width: @screen-xs-max) {
 				font-size: 2.5em;
 			}
@@ -248,9 +274,17 @@
 			color: #fff;
 			line-height: 1.3em;
 			margin-bottom: 1em;
+			font-style: italic;
+			text-transform: uppercase;
+			letter-spacing: 2px;
 			@media (max-width: @screen-xs-max) {
 				font-size: 1.2em;
 			}
+		}
+		.location {
+			.font-serif-heavy;
+			font-size: 1.8em;
+			font-weight: 400;
 		}
 		.btn-lg {
 			min-width: 300px;
@@ -260,6 +294,7 @@
 			padding-bottom: 20px;
 			.font-sans;
 			margin-bottom: 0;
+			background-color: #0C99D3;
 			&:hover {
 				color: #fff;
 			}
@@ -270,7 +305,7 @@
 		padding-bottom: @grid-gutter-width;
 	}
 	h2 {
-		font-size: 50px;
+		font-size: 60px;
 		border-top: none;
 		padding-top: @grid-gutter-width !important;
 		padding-bottom: @grid-gutter-width;
@@ -298,6 +333,7 @@
 		}
 		.container {
 			background-color: rgba(255,255,255,.85);
+			box-shadow: 0 1px 3px rgba(0,0,0,.3);
 			@media (min-width: @screen-sm-min) {
 				padding: @grid-gutter-width @grid-gutter-width*2 @grid-gutter-width*2;
 			}
@@ -322,6 +358,11 @@
 	footer {
 		background-color: #333;
 		margin-top:0;
+		&.site-footer {
+			.container {
+				padding-bottom: 40px;
+			}
+		}
 		.social-links {
 			border: none;
 			padding-top: 0;
