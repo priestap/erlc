@@ -10287,7 +10287,7 @@ a.resource-list .resource-tags a:focus {
   }
 }
 .speakers .speaker {
-  padding-bottom: 80px;
+  padding-bottom: 40px;
   float: left;
   width: 50%;
   position: relative;
@@ -10298,17 +10298,17 @@ a.resource-list .resource-tags a:focus {
 @media (min-width: 768px) {
   .speakers .speaker {
     float: left;
-    width: 25%;
+    width: 16.66666667%;
   }
 }
 @media (min-width: 1250px) {
   .speakers .speaker {
     float: left;
-    width: 25%;
+    width: 16.66666667%;
   }
 }
 @media (min-width: 768px) {
-  .speakers .speaker:nth-child(4n+1) {
+  .speakers .speaker:nth-child(6n+1) {
     clear: both;
   }
 }
@@ -10320,6 +10320,13 @@ a.resource-list .resource-tags a:focus {
   max-width: 100%;
   height: auto;
   display: inline-block;
+}
+.speakers .speaker .speaker-info h3 {
+  line-height: 1.2em;
+  font-size: 20px;
+}
+.speakers .speaker .speaker-info h3 a {
+  color: inherit;
 }
 .speakers .speaker .speaker-info p {
   display: none;

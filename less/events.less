@@ -125,12 +125,12 @@
 		padding-right: @grid-gutter-width;
 	}
 	.speaker {
-		padding-bottom: @grid-gutter-width*2;
+		padding-bottom: @grid-gutter-width;
 		.make-xs-column(6);
-		.make-sm-column(3);
-		.make-lg-column(3);
+		.make-sm-column(2);
+		.make-lg-column(2);
 		@media (min-width: @screen-sm-min) {
-			&:nth-child(4n+1) {
+			&:nth-child(6n+1) {
 				clear: both;
 			}
 		}
@@ -145,6 +145,13 @@
 			// @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
 			// 	min-height: 150px;
 			// }
+			h3 {
+				line-height: 1.2em;
+				font-size: 20px;
+				a {
+					color: inherit;
+				}
+			}
 			p {
 				display: none;
 			}
