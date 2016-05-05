@@ -8795,7 +8795,9 @@ a:hover {
 .main p,
 .main ul,
 .main ol,
-.main blockquote {
+.main blockquote,
+.main dt,
+.main dd {
   font-family: "Archer A", "Archer B", garamond, times, 'times new roman', serif;
   font-size: 18px;
 }
@@ -8806,6 +8808,10 @@ a:hover {
   border-left: 0;
   padding-left: 40px;
   padding-right: 40px;
+}
+.main dl {
+  margin-bottom: 1em;
+  display: block;
 }
 .main .pull-quote {
   float: right;
@@ -10344,6 +10350,9 @@ a.resource-list .resource-tags a:focus {
 .event-detail p {
   font-size: 20px;
 }
+.event-detail .main {
+  padding-bottom: 0;
+}
 .event-detail .container {
   background: transparent;
 }
@@ -10381,6 +10390,7 @@ a.resource-list .resource-tags a:focus {
   color: #fff;
   text-align: center;
   padding: 280px 0 80px;
+  margin-bottom: 0;
 }
 @media (max-width: 767px) {
   .event-detail .jumbotron {
@@ -10433,11 +10443,63 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail h2 {
   font-size: 50px;
+  border-top: none;
   padding-top: 40px !important;
   padding-bottom: 40px;
 }
+.event-detail #intro {
+  background-color: #f9f9f9;
+}
+.event-detail #schedule {
+  background: url(/img/event-schedule-bg.jpg) fixed center center no-repeat;
+  background-size: cover;
+  font-size: 120%;
+}
+.event-detail #schedule .lead {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .event-detail #schedule .lead {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .event-detail #schedule .lead {
+    max-width: 960px;
+  }
+}
+.event-detail #schedule .container {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+@media (min-width: 768px) {
+  .event-detail #schedule .container {
+    padding: 40px 80px 80px;
+  }
+}
+.event-detail #schedule h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 40px;
+}
+.event-detail #schedule h4 {
+  font-family: "Archer Heavyweight A", "Archer Heavyweight B";
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+.event-detail #schedule dd {
+  font-style: italic;
+}
+.event-detail #register {
+  background-color: #f9f9f9;
+  margin-bottom: 0;
+}
 .event-detail footer {
   background-color: #333;
+  margin-top: 0;
 }
 .event-detail footer .social-links {
   border: none;

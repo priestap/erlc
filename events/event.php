@@ -74,18 +74,14 @@
 						</div>
 					</header>
 					<div class="article-body">
-						<div class="container narrow">
-							<section id="intro" class="section">
+						<section id="intro" class="section">
+							<div class="container narrow">
 								<p class="lead">American culture is in crisis. Whether it is the latest comments by a presidential frontrunner or the most recent stories in the news, evangelicals are confronted by a culture that is increasingly hostile to the gospel.</p>
-								
 								<p>So, what does it look like to engage the culture as Christians without losing the gospel? How can Christians apply the gospel to everyday life? Believers must be equipped to take the unchanging truths of the Bible and engage the shifting culture around us.</p>
-								
 								<p>Join us for the 3rd annual ERLC National Conference on the theme "Onward" as we prepare you for gospel-centered cultural engagement. On&nbsp;August 25-26, this event will welcome key speakers including Russell Moore, Matt Chandler, Andy Crouch, Bryan&nbsp;Loritts, Andy Stanley, Darrin Patrick, Jackie Hill-Perry, and Gabe Lyons.</p>
-								
 								<p>Through plenaries, panel discussions, and breakout sessions, this conference will equip you to apply the gospel to many aspects of cultural engagement: pop culture, the arts, politics, sports, race, sexuality, parenting, millennials, and everyday life.</p>
-							</section>
-							
-						</div>
+							</div>
+						</section>
 						<section id="speakers" class="section">
 							<h2>Speakers</h2>
 							<ul class="list-unstyled speakers">
@@ -520,109 +516,144 @@
 						</section>
 						<section id="schedule" class="section">
 							<h2>Schedule</h2>
+							<p class="lead">The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
+							<p class="text-center"><em>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.</em></p>
 							<div class="container narrow">
 							
-							<p>The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
-								<p>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.<br>
-								&nbsp;</p>
-
-								<h3><strong>Keynotes</strong></h3>
-
-								<p>Matt Chandler, <em><strong>Unbuckling the Bible Belt: Cultural engagement in the Capital of Cultural Christianity</strong></em></p>
-								<p>Andy Crouch, <em><strong>Strong and Weak: Embracing a Life of Love, Risk, and True Flourishing</strong></em></p>
-								<p>Russell Moore, <em><strong>Onward: Engaging the Culture without Losing the Gospel</strong></em></p>
-								<p>Bryan Loritts, <em><strong>Right Color, Wrong Culture: Pursuing Multi-ethnic Cultural Engagement</strong></em></p>
-								<p>Andy Stanley, <em><strong>Preaching, and Cultural Engagement: A Conversation with Russell Moore</strong></em></p>
-
-								<h3><br>
-								<strong>Talks&nbsp;</strong></h3>
-
-								<p>Mike Cosper, <em><strong>Yes The Stories We Tell: How TV and Movies Long for and Echo the Truth</strong></em></p>
-								<p>Robby Gallaty, <em><strong>Making Disciples who Engage the Culture</strong></em></p>
-								<p>Greg Thornbury, <em><strong>Cain, Abel, and Kanye: The Gospel and Pop Culture</strong></em></p>
-								<p>Trip Lee, <em><strong>The Good Life: Christian Hip Hop and Cultural Engagement</strong></em></p>
-								<p>DA Horton, <em><strong>For the City: Race, Urban Ministry, and Cultural Engagement</strong></em></p>
-								<p>Gabe Lyons, <em><strong>Good Faith: Being a Christian When Society Thinks You're Irrelevant and Extreme</strong></em></p>
-								<p>Ben Stuart, <em><strong>God, Guys, and Girls: Pursuing Sexual Purity in a Porn Culture</strong></em></p>
-
 								
 
-								<h3><strong>Plenary Panels</strong></h3>
+								<h3>Keynotes</h3>
 
-								<p><em><strong><em>State of the Art: How the Gospel Shapes our Engagement with the Arts&nbsp;</em></strong></em></p>
+								<dl>
+									<dt>Matt Chandler</dt><dd>Unbuckling the Bible Belt: Cultural engagement in the Capital of Cultural Christianity</dd>
+								</dl>
+								<dl>
+									<dt>Andy Crouch</dt><dd>Strong and Weak: Embracing a Life of Love, Risk, and True Flourishing</dd>
+								</dl>
+								<dl>
+									<dt>Russell Moore</dt><dd>Onward: Engaging the Culture without Losing the Gospel</dd>
+									</dl>
+								<dl><dt>Bryan Loritts</dt><dd>Right Color, Wrong Culture: Pursuing Multi-ethnic Cultural Engagement</dd>
+									</dl>
+								<dl><dt>Andy Stanley</dt><dd>Preaching, and Cultural Engagement: A Conversation with Russell Moore</dd>
+								</dl>
+								<hr>
+								<h3>Talks&nbsp;</h3>
 
-								<p>Mike Cosper<br>
-								Alissa Wilkinson<br>
-								Karen Swallow Prior<br>
-								Steven Bush</p>
 
-								<p><em><strong>2016 and Beyond: Reshaping Evangelical Political Engagement</strong></em></p>
+								<dl><dt>Mike Cosper</dt><dd>Yes The Stories We Tell: How TV and Movies Long for and Echo the Truth</dd>
+								</dl>
+								<dl><dt>Robby Gallaty</dt><dd>Making Disciples who Engage the Culture</dd>
+								</dl>
+								<dl><dt>Greg Thornbury</dt><dd>Cain, Abel, and Kanye: The Gospel and Pop Culture</dd>
+								</dl>
+								<dl><dt>Trip Lee</dt><dd>The Good Life: Christian Hip Hop and Cultural Engagement</dd>
+								</dl>
+								<dl><dt>DA Horton</dt><dd>For the City: Race, Urban Ministry, and Cultural Engagement</dd>
+								</dl>
+								<dl><dt>Gabe Lyons</dt><dd>Good Faith: Being a Christian When Society Thinks You're Irrelevant and Extreme</dd>
+								</dl>
+								<dl><dt>Ben Stuart</dt><dd>God, Guys, and Girls: Pursuing Sexual Purity in a Porn Culture</dd>
+								</dl>
 
-								<p>Andrew Walker<br>
-								Bruce Ashford<br>
-								Jennifer Marshall</p>
+								<hr>
 
-								<p><em><strong>Every Square Inch: How Cultural Engagement Intersects with Everyday Life</strong></em></p>
+								<h3>Plenary Panels</h3>
 
-								<p>Daniel Patterson<br>
-								Jared Wilson<br>
-								Matt Anderson<br>
-								Trevin Wax<br>
-								Jackie Hill Perry<br>
-								DA Horton</p>
+								<h4>State of the Art: How the Gospel Shapes our Engagement with the Arts</h4>
 
-								<p><em><strong>Shepherding the Flock: Pastoral Ministry and Cultural Engagement</strong></em></p>
+								<ul class="speaker-list list-unstyled">
+									<li>Mike Cosper</li>
+									<li>Alissa Wilkinson</li>
+									<li>Karen Swallow Prior</li>
+									<li>Steven Bush</li>
+								</ul>
 
-								<p>Dan Darling<br>
-								Robby Gallaty<br>
-								Kevin Cawley<br>
-								Greg Thompson<br>
-								Bryan Loritts<br>
-								Matt Chandler</p>
+								<h4>2016 and Beyond: Reshaping Evangelical Political Engagement</h4>
 
-								<h3><strong>Breakouts</strong></h3>
+								<ul class="speaker-list list-unstyled">
+									<li>Andrew Walker</li>
+									<li>Bruce Ashford</li>
+									<li>Jennifer Marshall</li>
+								</ul>
 
-								<p><em><strong>Sports and Cultural Engagement</strong></em></p>
+								<h4>Every Square Inch: How Cultural Engagement Intersects with Everyday Life</h4>
 
-								<p>David Prince</p>
+								<ul class="speaker-list list-unstyled">
+									<li>Daniel Patterson</li>
+									<li>Jared Wilson</li>
+									<li>Matt Anderson</li>
+									<li>Trevin Wax</li>
+									<li>Jackie Hill Perry</li>
+									<li>DA Horton</li>
+								</ul>
 
-								<p><em><strong>Race and Cultural Engagement</strong></em></p>
+								<h4>Shepherding the Flock: Pastoral Ministry and Cultural Engagement</h4>
 
-								<p harris="" steven="">Trillia Newbell<br>
-								Jemar Tisby<br>
-								DA Horton<br>
-								Matt Hall<br>
-								Steven Harris</p>
+								<ul class="speaker-list list-unstyled">
+									<li>Dan Darling</li>
+									<li>Robby Gallaty</li>
+									<li>Kevin Cawley</li>
+									<li>Greg Thompson</li>
+									<li>Bryan Loritts</li>
+									<li>Matt Chandler</li>
+								</ul>
+								<hr>
+								<h3>Breakouts</h3>
 
-								<p><em><strong>Milennials and Cultural Engagement</strong></em></p>
+								<h4>Sports and Cultural Engagement</h4>
 
-								<p dean="" inserra="">Ben Stuart<br>
-								Mike Glenn<br>
-								Gregg Matte<br>
-								JR Vassar<br>
-								Jackie Hill Perry<br>
-								Dean Inserra</p>
+								<ul class="speaker-list list-unstyled">
+									<li>David Prince</li>
+								</ul>
 
-								<p><em><strong>Sexuality, Religious Liberty, and Cultural Engagement</strong></em></p>
+								<h4>Race and Cultural Engagement</h4>
 
-								<p andrew="" walker="">Barrett Duke<br>
-								Jennifer Marshall<br>
-								Andrew Walker</p>
+								<ul class="speaker-list list-unstyled">
+									<li>Trillia Newbell</li>
+									<li>Jemar Tisby</li>
+									<li>DA Horton</li>
+									<li>Matt Hall</li>
+									<li>Steven Harris</li>
+								</ul>
 
-								<p><em><strong>Parenting and Cultural Engagement</strong></em></p>
+								<h4>Milennials and Cultural Engagement</h4>
 
-								<p>Randy Stinson<br>
-								Jimmy Scroggins<br>
-								David Prince</p>
+								<ul class="speaker-list list-unstyled">
+									<li>Ben Stuart</li>
+									<li>Mike Glenn</li>
+									<li>Gregg Matte</li>
+									<li>JR Vassar</li>
+									<li>Jackie Hill Perry</li>
+									<li>Dean Inserra</li>
+								</ul>
 
-								<p><em><strong>Women and Cultural Engagement</strong></em></p>
+								<h4>Sexuality, Religious Liberty, and Cultural Engagement</h4>
 
-								<p>Lindsay Swartz<br>
-								Trillia Newbell<br>
-								Karen Swallow Prior<br>
-								Jennifer Marshall<br>
-								Jackie Hill Perry<br>
-								Alissa Wilkinson</p>
+								<ul class="speaker-list list-unstyled">
+									<li>Barrett Duke</li>
+									<li>Jennifer Marshall</li>
+									<li>Andrew Walker</li>
+								</ul>
+
+								<h4>Parenting and Cultural Engagement</h4>
+
+								<ul class="speaker-list list-unstyled">
+									<li>Randy Stinson</li>
+									<li>Jimmy Scroggins</li>
+									<li>David Prince</li>
+								</ul>
+
+								<h4>Women and Cultural Engagement</h4>
+
+								<ul class="speaker-list list-unstyled">
+									<li>Lindsay Swartz</li>
+									<li>Trillia Newbell</li>
+									<li>Karen Swallow Prior</li>
+									<li>Jennifer Marshall</li>
+									<li>Jackie Hill Perry</li>
+									<li>Alissa Wilkinson</li>
+								</ul>
 							</div>
 						</section>
 						<section id="location" class="section">

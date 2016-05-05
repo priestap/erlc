@@ -176,6 +176,9 @@
 	p {
 		font-size: 20px;
 	}
+	.main {
+		padding-bottom: 0;
+	}
 	.container {
 		background: transparent;
 		&.narrow {
@@ -221,6 +224,7 @@
 		color: #fff;
 		text-align: center;
 		padding: @grid-gutter-width*7 0 @grid-gutter-width*2;
+		margin-bottom: 0;
 		@media (max-width: @screen-xs-max) {
 			padding-top: @grid-gutter-width*3;
 		}
@@ -267,11 +271,57 @@
 	}
 	h2 {
 		font-size: 50px;
+		border-top: none;
 		padding-top: @grid-gutter-width !important;
 		padding-bottom: @grid-gutter-width;
 	}
+	#intro {
+		background-color: #f9f9f9;
+	}
+	#schedule {
+		background: url(/img/event-schedule-bg.jpg) fixed center center no-repeat;
+		background-size: cover;
+		font-size: 120%;
+		.lead {
+			// color: #fff;
+			// text-shadow: 0 0 3px rgba(0,0,0,.3);
+			@media (max-width: @screen-sm-max) {
+				padding-right: 20px;
+				padding-left: 20px;
+			}
+			@media (min-width: @screen-md-min) {
+				max-width: 960px;
+			}
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+		.container {
+			background-color: rgba(255,255,255,.85);
+			@media (min-width: @screen-sm-min) {
+				padding: @grid-gutter-width @grid-gutter-width*2 @grid-gutter-width*2;
+			}
+		}
+		h3 {
+			text-transform: uppercase;
+			font-weight: 800;
+			margin-top: @grid-gutter-width;
+		}
+		h4 {
+			.font-serif-heavy;
+		}
+
+		dd {
+			font-style: italic;
+		}
+	}
+	#register {
+		background-color: #f9f9f9;
+		margin-bottom: 0;
+	}
 	footer {
 		background-color: #333;
+		margin-top:0;
 		.social-links {
 			border: none;
 			padding-top: 0;

@@ -183,7 +183,7 @@ article#content {
 	h2 {
 		margin-top: 0;
 	}
-	p, ul, ol, blockquote {
+	p, ul, ol, blockquote, dt, dd {
 		.font-secondary;
 		font-size: 18px;
 	}
@@ -194,6 +194,10 @@ article#content {
 		border-left:0;
 		padding-left: @grid-gutter-width;
 		padding-right: @grid-gutter-width;
+	}
+	dl {
+		margin-bottom: 1em;
+		display: block;
 	}
 	.pull-quote {
 		float: right;
