@@ -10549,7 +10549,7 @@ a.resource-list .resource-tags a:focus {
   background-color: #f9f9f9;
 }
 .event-detail #schedule {
-  background: url(/img/event-schedule-bg2.jpg) fixed center center no-repeat;
+  background: url(/img/event-schedule-bg4.jpg) fixed center center no-repeat;
   background-size: cover;
   font-size: 120%;
 }
@@ -10604,7 +10604,7 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail #register {
   background-color: #f9f9f9;
-  background: url(/img/event-register-bg2.jpg) fixed center center no-repeat;
+  background: url(/img/event-register-bg4.jpg) fixed center center no-repeat;
   background-size: cover;
   margin-bottom: 0;
 }
