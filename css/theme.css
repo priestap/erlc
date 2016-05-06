@@ -10381,14 +10381,14 @@ a.resource-list .resource-tags a:focus {
 .event-detail .container {
   background: transparent;
 }
-@media (min-width: 768px) {
-  .event-detail .container.narrow {
-    max-width: 767px;
-  }
-}
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .event-detail .container.narrow {
     max-width: 85%;
+  }
+}
+@media (min-width: 992px) {
+  .event-detail .container.narrow {
+    max-width: 767px;
   }
 }
 .event-detail #header_wrap .container {

@@ -205,13 +205,15 @@
 	.container {
 		background: transparent;
 		&.narrow {
-			@media (min-width: @screen-sm-min) {
+
+			@media (max-width: @screen-sm-max) {
+				max-width: 85%;
+			}
+			@media (min-width: @screen-md-min) {
 				max-width: 767px;
 			}
 			
-			@media (max-width: @screen-xs-max) {
-				max-width: 85%;
-			}
+			
 		}
 
 	}
