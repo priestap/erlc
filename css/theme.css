@@ -10504,6 +10504,7 @@ a.resource-list .resource-tags a:focus {
 .event-detail .section {
   padding-top: 40px;
   padding-bottom: 40px;
+  position: relative;
 }
 .event-detail h2 {
   font-size: 60px;
@@ -10587,6 +10588,10 @@ a.resource-list .resource-tags a:focus {
 }
 #schedule-content p {
   margin-bottom: 0;
+}
+.marker {
+  position: absolute;
+  top: -80px;
 }
 .index-date h2 {
   margin-bottom: 0 !important;

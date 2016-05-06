@@ -49,10 +49,10 @@
 		      <ul class="nav navbar-nav navbar-right">
 		        <!-- <li class="nav-item nav-item-logo"><a href="/"><img src="/img/erlc_logo_mark.svg" height="40" width="40" alt="ERLC Logo"></a></li> -->
 		        <li class="nav-item nav-item-home dropdown"><a href="#" >Home</a></li>
-		        <li class="nav-item nav-item-speakers"><a href="#speakers" >Speakers</a></li>
-		        <li class="nav-item nav-item-speakers"><a href="#schedule" >Schedule</a></li>
-		        <li class="nav-item nav-item-speakers"><a href="#location" >Location</a></li>
-		        <li class="nav-item nav-item-store"><a href="#register" >Register</a></li>
+		        <li class="nav-item nav-item-speakers"><a href="#speakers-marker" >Speakers</a></li>
+		        <li class="nav-item nav-item-speakers"><a href="#schedule-marker" >Schedule</a></li>
+		        <li class="nav-item nav-item-speakers"><a href="#location-marker" >Location</a></li>
+		        <li class="nav-item nav-item-store"><a href="#register-marker" >Register</a></li>
 
 		      </ul>
 		     
@@ -62,7 +62,6 @@
 	</header>
 	</div>
 	<article id="content" role="main">
-
 			<div class="row">
 				<div class="main">
 					<header class="jumbotron" style="background: url(/img/uploads/event-hero-bg4.jpg) fixed top center no-repeat;">
@@ -85,7 +84,7 @@
 							</div>
 						</section>
 						<section id="speakers" class="section">
-							<h2>Speakers</h2>
+							<h2><span id="speakers-marker" class="marker"></span>Speakers</h2>
 							<ul class="list-unstyled speakers">
 								<li class="speaker">
 									<div>
@@ -517,7 +516,7 @@
 							</ul>
 						</section>
 						<section id="schedule" class="section">
-							<h2>Schedule</h2>
+							<h2><span id="schedule-marker" class="marker"></span>Schedule</h2>
 							<p class="lead">The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
 							<p class="text-center"><em>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.</em></p>
 							<div class="container narrow">
@@ -659,7 +658,7 @@
 							</div>
 						</section>
 						<section id="location" class="section">
-							<h2>Location</h2>
+							<h2><span id="location-marker" class="marker"></span>Location</h2>
 							<div class="container narrow">
 								<p>The event will take place at the iconic <a href="http://www.marriott.com/hotels/travel/bnago-gaylord-opryland">Gaylord Opryland Resort</a> in Nashville, TN. Single/double occupancy rooms are $179/night plus a daily resort fee of $18/day. Rooms can be booked online <a href="https://aws.passkey.com/g/57530300">here</a> or&nbsp;by calling 615-889-1000 and mentioning you are attending the ERLC National Conference. Check in is 3:00 PM CT with check out at 11:00 AM CT.</p>
 
@@ -682,7 +681,7 @@
 							</div>
 						</section>
 						<section id="register" class="section">
-							<h2>Register</h2>
+							<h2><span id="register-marker" class="marker"></span>Register</h2>
 							<div class="container narrow">
 								
 								<iframe allowtransparency="true" frameborder="0" height="400" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" src="https://www.eventbrite.com/tickets-external?eid=21729915763&ref=etckt" vspace="0" width="100%"></iframe>
