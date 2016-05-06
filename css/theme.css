@@ -10306,6 +10306,11 @@ a.resource-list .resource-tags a:focus {
     width: 16.66666667%;
   }
 }
+@media (max-width: 767px) {
+  .speakers .speaker:nth-child(3n+1) {
+    clear: both;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .speakers .speaker:nth-child(4n+1) {
     clear: both;
@@ -10335,6 +10340,7 @@ a.resource-list .resource-tags a:focus {
 @media (max-width: 991px) {
   .speakers .speaker .speaker-info h3 {
     margin-top: 5px;
+    font-size: 16px;
   }
 }
 .speakers .speaker .speaker-info h3 a {
@@ -10567,6 +10573,12 @@ a.resource-list .resource-tags a:focus {
 .event-detail #schedule .container {
   background-color: rgba(255, 255, 255, 0.85);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 767px) {
+  .event-detail #schedule .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media (min-width: 768px) {
   .event-detail #schedule .container {
