@@ -516,9 +516,11 @@
 							</ul>
 						</section>
 						<section id="schedule" class="section">
-							<h2><span id="schedule-marker" class="marker"></span>Schedule</h2>
-							<p class="lead">The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
-							<p class="text-center"><em>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.</em></p>
+							<div class="section-header">
+								<h2><span id="schedule-marker" class="marker"></span>Schedule</h2>
+								<p class="lead">The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
+								<p class="text-center"><em>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.</em></p>
+							</div>
 							<div class="container narrow">
 							
 								
