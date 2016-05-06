@@ -65,10 +65,10 @@
 
 			<div class="row">
 				<div class="main">
-					<header class="jumbotron" style="background: url(/img/uploads/event-hero-bg2.jpg) fixed top center no-repeat;">
+					<header class="jumbotron" style="background: url(/img/uploads/event-hero-bg4.jpg) fixed top center no-repeat;">
 						<div class="">
 							<a class="back" href="index.php"><i class="ion-chevron-left"></i> Events</a>
-							<p class="pre-title">2016 ERLC National Conference</p>
+							<p class="pre-title"><img src="/img/erlc_logo_mark_wt.svg" alt="ERLC Logo" width="40" style="margin-top: -3px;position:relative;" /> 2016 ERLC National Conference</p>
 						  <h1 class="article-title">Onward</h1>
 							<p class="subtitle">Engaging the Culture Without Losing the Gospel</p>
 						  <p><a class="btn btn-primary btn-lg" href="#register" role="button">Register Now</a></p>
