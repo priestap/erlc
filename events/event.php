@@ -516,7 +516,7 @@
 							</ul>
 						</section>
 						<section id="schedule" class="section">
-							<div class="section-header">
+							<div class="section-header inverse">
 								<h2><span id="schedule-marker" class="marker"></span>Schedule</h2>
 								<p class="lead">The schedule is still being finalized, but check-in will be from 11 AM-1 PM August 25. The conference will begin at 1 PM, August 25 and will end late Thursday evening. On Friday, August 26, the conference will run all day.</p>
 								<p class="text-center"><em>Note: The following is a&nbsp;list of topics, not the sequence of the schedule.</em></p>
@@ -660,7 +660,9 @@
 							</div>
 						</section>
 						<section id="location" class="section">
-							<h2><span id="location-marker" class="marker"></span>Location</h2>
+							<div class="section-header">
+								<h2><span id="location-marker" class="marker"></span>Location</h2>
+							</div>
 							<div class="container narrow">
 								<p>The event will take place at the iconic <a href="http://www.marriott.com/hotels/travel/bnago-gaylord-opryland">Gaylord Opryland Resort</a> in Nashville, TN. Single/double occupancy rooms are $179/night plus a daily resort fee of $18/day. Rooms can be booked online <a href="https://aws.passkey.com/g/57530300">here</a> or&nbsp;by calling 615-889-1000 and mentioning you are attending the ERLC National Conference. Check in is 3:00 PM CT with check out at 11:00 AM CT.</p>
 
@@ -683,7 +685,9 @@
 							</div>
 						</section>
 						<section id="register" class="section">
-							<h2><span id="register-marker" class="marker"></span>Register</h2>
+							<div class="section-header inverse">
+								<h2><span id="register-marker" class="marker"></span>Register</h2>
+							</div>
 							<div class="container narrow">
 								
 								<iframe allowtransparency="true" frameborder="0" height="400" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" src="https://www.eventbrite.com/tickets-external?eid=21729915763&ref=etckt" vspace="0" width="100%"></iframe>

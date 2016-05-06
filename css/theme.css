@@ -10506,6 +10506,12 @@ a.resource-list .resource-tags a:focus {
   padding-bottom: 40px;
   position: relative;
 }
+.event-detail .section .section-header.inverse {
+  color: #fff;
+}
+.event-detail .section .section-header.inverse h2 {
+  color: #fff !important;
+}
 .event-detail h2 {
   font-size: 60px;
   border-top: none;
@@ -10519,12 +10525,6 @@ a.resource-list .resource-tags a:focus {
   background: url(/img/event-schedule-bg2.jpg) fixed center center no-repeat;
   background-size: cover;
   font-size: 120%;
-}
-.event-detail #schedule .section-header {
-  color: #fff;
-}
-.event-detail #schedule .section-header h2 {
-  color: #fff;
 }
 .event-detail #schedule .lead {
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -10571,7 +10571,7 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail #register {
   background-color: #f9f9f9;
-  background: url(/img/event-schedule-bg.jpg) fixed center center no-repeat;
+  background: url(/img/event-register-bg2.jpg) fixed center center no-repeat;
   background-size: cover;
   margin-bottom: 0;
 }
