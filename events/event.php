@@ -71,7 +71,7 @@
 						  <h1 class="article-title">Onward</h1>
 							<p class="subtitle">Engaging the Culture Without Losing the Gospel</p>
 						  <p><a class="btn btn-primary btn-lg" href="#register" role="button">Register Now</a></p>
-						  <p class="location">August 25-26th  |  Nashville, TN</p>
+						  <p class="location">August 25-26th  <span class="hidden-xs">|</span>  Nashville,&nbsp;TN</p>
 						</div>
 					</header>
 					<div class="article-body">

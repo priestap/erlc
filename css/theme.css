@@ -10375,8 +10375,15 @@ a.resource-list .resource-tags a:focus {
 .event-detail .container {
   background: transparent;
 }
-.event-detail .container.narrow {
-  max-width: 767px;
+@media (min-width: 768px) {
+  .event-detail .container.narrow {
+    max-width: 767px;
+  }
+}
+@media (max-width: 767px) {
+  .event-detail .container.narrow {
+    max-width: 85%;
+  }
 }
 .event-detail #header_wrap .container {
   background-color: transparent;
@@ -10413,8 +10420,15 @@ a.resource-list .resource-tags a:focus {
   background-size: cover !important;
   color: #fff;
   text-align: center;
-  padding: 200px 0 80px;
+  padding: 200px 10px 80px;
   margin-bottom: 0;
+}
+@media (max-width: 767px) {
+  .event-detail .jumbotron > div {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 767px) {
   .event-detail .jumbotron {
@@ -10450,11 +10464,18 @@ a.resource-list .resource-tags a:focus {
   opacity: 1;
   filter: alpha(opacity=100);
 }
+@media (max-width: 767px) {
+  .event-detail .jumbotron .back {
+    top: 10px;
+    left: 40px;
+  }
+}
 .event-detail .jumbotron .pre-title {
   font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 1px;
+  line-height: 1;
 }
 .event-detail .jumbotron h1 {
   font-size: 9em;
@@ -10463,7 +10484,7 @@ a.resource-list .resource-tags a:focus {
 }
 @media (max-width: 767px) {
   .event-detail .jumbotron h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;
   }
 }
 .event-detail .jumbotron .subtitle {
