@@ -10538,6 +10538,7 @@ a.resource-list .resource-tags a:focus {
 }
 .event-detail .section .section-header.inverse h2 {
   color: #fff !important;
+  text-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
 }
 .event-detail h2 {
   font-size: 60px;
