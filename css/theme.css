@@ -10206,18 +10206,26 @@ a.resource-list .resource-tags a:focus {
 .events-stack .event .event-thumb {
   float: left !important;
   margin-right: 20px;
+  border-radius: 2px;
 }
-.events-stack .event > a {
+.events-stack .event a {
   display: block;
 }
-.events-stack .event > a:hover h4 > i {
+.events-stack .event a:hover h4 > i {
   color: #B70216;
 }
-.events-stack .event h4,
-.events-stack .event p {
+.events-stack .event a .city-date {
+  color: #999 !important;
+}
+.events-stack .event a .city-date .pipe {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+.events-stack .event a h4,
+.events-stack .event a p {
   margin: 0;
 }
-.events-stack .event h4 {
+.events-stack .event a h4 {
   font-size: 1.5em;
   line-height: 1.3em;
   font-family: "Archer Heavyweight A", "Archer Heavyweight B";
@@ -10225,7 +10233,7 @@ a.resource-list .resource-tags a:focus {
   font-weight: 800;
   letter-spacing: 0;
 }
-.events-stack .event h4 > i {
+.events-stack .event a h4 > i {
   color: #ccc;
   margin-left: 4px;
   font-size: 14px;

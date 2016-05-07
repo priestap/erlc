@@ -50,36 +50,41 @@
 		.event-thumb {
 			.pull-left;
 			margin-right: @grid-gutter-width/2;
+			border-radius: 2px;
+
 		}
-		> a {
+		a {
 			display: block;
 			&:hover {
 				h4 > i {
 					color: @brand-danger;
 				}
 			}
-		}
-		h4, p {
-			margin: 0;
-		}
-		h4 {
-			font-size: 1.5em;
-			line-height: 1.3em;
-			.font-serif-heavy;
-			
-
-			> i {
-				color: #ccc;
-				margin-left: 4px;
-				font-size: 14px;
-				position: absolute;
-				right: 10px;
-				top: 50%;
-				margin-top: -14px;
+			.city-date {
+				color: #999 !important;
+				.pipe {
+					.opacity(.4);
+				}
 			}
-			
-
+			h4, p {
+				margin: 0;
+			}
+			h4 {
+				font-size: 1.5em;
+				line-height: 1.3em;
+				.font-serif-heavy;
+				> i {
+					color: #ccc;
+					margin-left: 4px;
+					font-size: 14px;
+					position: absolute;
+					right: 10px;
+					top: 50%;
+					margin-top: -14px;
+				}
+			}
 		}
+
 		p {
 			.font-sans;
 			color: #999;
