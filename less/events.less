@@ -363,7 +363,12 @@
 		}
 	}
 	h2 {
-		font-size: 60px;
+		@media (max-width: @screen-xs-max) {
+			font-size: 40px;
+		}
+		@media (min-width: @screen-sm-min) {
+			font-size: 60px;
+		}
 		border-top: none;
 		padding-top: @grid-gutter-width !important;
 		padding-bottom: @grid-gutter-width;

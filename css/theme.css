@@ -10541,10 +10541,19 @@ a.resource-list .resource-tags a:focus {
   text-shadow: 0 0 60px rgba(0, 0, 0, 0.5);
 }
 .event-detail h2 {
-  font-size: 60px;
   border-top: none;
   padding-top: 40px !important;
   padding-bottom: 40px;
+}
+@media (max-width: 767px) {
+  .event-detail h2 {
+    font-size: 40px;
+  }
+}
+@media (min-width: 768px) {
+  .event-detail h2 {
+    font-size: 60px;
+  }
 }
 .event-detail #intro {
   background-color: #f9f9f9;
