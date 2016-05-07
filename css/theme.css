@@ -10227,7 +10227,9 @@ a.resource-list .resource-tags a:focus {
 }
 .events-stack .event a h4 {
   font-size: 1.5em;
-  line-height: 1.3em;
+  line-height: 1.1em;
+  padding-top: 3px;
+  margin-bottom: 3px;
   font-family: "Archer Heavyweight A", "Archer Heavyweight B";
   font-style: italic;
   font-weight: 800;
