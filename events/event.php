@@ -689,8 +689,9 @@
 								<h2><span id="register-marker" class="marker"></span>Register</h2>
 							</div>
 							<div class="container narrow">
-								
-								<iframe allowtransparency="true" frameborder="0" height="400" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" src="https://www.eventbrite.com/tickets-external?eid=21729915763&ref=etckt" vspace="0" width="100%"></iframe>
+								<div class="iframe-container">
+									<iframe allowtransparency="true" frameborder="0" height="400" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" src="https://www.eventbrite.com/tickets-external?eid=21729915763&ref=etckt" vspace="0" width="100%"></iframe>
+								</div>
 							</div>
 						</section>
 
@@ -723,28 +724,10 @@
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<!-- script async src="/lib/js/bootstrap-hover-dropdown.min.js"></script>
 	<script>
-		$(window).scroll(function() {
-			if ($(this).scrollTop() > 110){  
-		    $('#header_wrap').addClass("sticky");
-		    $('#content').addClass("sticky");
-		    $('#heroCarousel').addClass("sticky");
-		  }
-		  else{
-		    $('#header_wrap').removeClass("sticky");
-		    $('#content').removeClass("sticky");
-		    $('#heroCarousel').removeClass("sticky");
-		  }
-		});
+		// window.setTimeout(function(){
+		// 	$("iframe").contents().find(".panel_footer").attr("style", "background: #fff !important");
+		// }, 2000);
 	</script>
 
-
-	
-  <script async>
-  	$(document).ready(function(){
-    	$(".nav-item-resource-library").addClass("active");
-    	$(".nav-item-articles").addClass("active");
-		});
-  </script -->
 </body>
