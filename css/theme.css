@@ -10160,6 +10160,12 @@ a.resource-list .resource-tags a:focus {
   max-width: 100%;
   height: auto;
 }
+@media (max-width: 1249px) {
+  .events .hero-image {
+    margin-left: -26.66666667px;
+    margin-right: -26.66666667px;
+  }
+}
 .upcoming-events h2 {
   background-color: #fff;
 }
