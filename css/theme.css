@@ -10168,6 +10168,8 @@ a.resource-list .resource-tags a:focus {
 }
 .upcoming-events h2 {
   background-color: #fff;
+  border-top: none !important;
+  font-size: 30px;
 }
 .upcoming-events h3 {
   font-size: 34px;
@@ -10189,86 +10191,56 @@ a.resource-list .resource-tags a:focus {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media (min-width: 768px) {
-  .events-stack:after {
-    content: "";
-    display: block;
-    position: absolute;
-    left: 50%;
-    height: 100%;
-    width: 1px;
-    background: #E3E2E4;
-    top: 0;
-    z-index: 0;
+@media (min-width: 992px) {
+  .events-stack {
+    max-width: 600px;
+    margin: 0 auto;
   }
 }
 .events-stack .event {
   display: block;
-  padding: 20px 30px;
-  border-bottom: 1px solid #E3E2E4;
+  padding: 10px ;
+  border-bottom: 1px solid #ddd;
+  position: relative;
 }
-.events-stack .event:before {
-  content: "";
-  border: 2px solid #DDD;
-  width: 16px;
-  height: 16px;
+.events-stack .event .event-thumb {
+  float: left !important;
+  margin-right: 20px;
+}
+.events-stack .event > a {
   display: block;
-  background-color: #fff;
-  z-index: 1;
-  left: -8px;
-  top: 30px;
-  position: absolute;
-  border-radius: 16px;
 }
-@media (min-width: 768px) {
-  .events-stack .event {
-    margin-bottom: 40px;
-  }
+.events-stack .event > a:hover h4 > i {
+  color: #B70216;
 }
 .events-stack .event h4,
 .events-stack .event p {
   margin: 0;
 }
 .events-stack .event h4 {
-  font-size: 1.7em;
+  font-size: 1.5em;
   line-height: 1.3em;
   font-family: "Archer Heavyweight A", "Archer Heavyweight B";
   font-style: italic;
   font-weight: 800;
   letter-spacing: 0;
 }
-.events-stack .event h4 > a > i {
+.events-stack .event h4 > i {
   color: #ccc;
   margin-left: 4px;
   font-size: 14px;
-}
-.events-stack .event h4 > a:hover > i {
-  color: #B70216;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -14px;
 }
 .events-stack .event p {
   font-family: "Gotham A", "Gotham B", Helvetica, Arial, sans-serif;
   color: #999;
-}
-@media (min-width: 768px) {
-  .events-stack .event {
-    width: 50%;
-    left: 50%;
-    position: relative;
-    margin-top: -80px;
-  }
+  font-size: 14px !important;
 }
 .events-stack .event:first-child {
   margin-top: 0;
-}
-@media (min-width: 768px) {
-  .events-stack .event:nth-child(even) {
-    margin-left: -50%;
-    text-align: right;
-  }
-  .events-stack .event:nth-child(even):before {
-    left: auto;
-    right: -8px;
-  }
 }
 .speakers {
   margin-left: -20px;

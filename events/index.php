@@ -48,39 +48,57 @@
 						<h3 class="text-center">2016</h3>
 						<div class="events-stack">
 							<div class="event">
-	            	<h4><a href="/events/event.php">Leadership Summit 2016 <i class="ion-chevron-right"></i></a></h4>
-	            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</p>
+								<a href="/events/event.php">
+									<img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+	            		<h4>Leadership Summit 2016 <i class="ion-chevron-right"></i></h4>
+	            		<span class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</span>
+	            	</a>
 	            </div>
 	            <div class="event">
-						  	<h4><a href="/events/event.php">ERLC National Conference 2016 <i class="ion-chevron-right"></i></a></h4>
-						  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</p>
+	            	<a href="/events/event.php"><img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+						  		<h4>ERLC National Conference 2016 <i class="ion-chevron-right"></i></h4>
+						  		<span class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</span>
+						  	</a>
 					  	</div>
 	            <div class="event">
-	            	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
-	            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</p>
+	            	<a href="/events/event.php"><img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+	            		<h4>Sample Title of Event <i class="ion-chevron-right"></i></h4>
+	            		<span class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</span>
+	            	</a>
 	            </div>
 	            <div class="event">
-						  	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
-						  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</p>
+	            	<a href="/events/event.php"><img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+						  		<h4>Sample Title of Event <i class="ion-chevron-right"></i></h4>
+						  		<span class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</span>
+						  	</a>
 					  	</div>
 					  	<br>
 							<h3 class="text-center">2017</h3>
 							<div class="events-stack">
 								<div class="event">
-		            	<h4><a href="/events/event.php">Leadership Summit 2016 <i class="ion-chevron-right"></i></a></h4>
-		            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</p>
+									<a href="/events/event.php">
+										<img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+		            		<h4>Leadership Summit 2016 <i class="ion-chevron-right"></i></h4>
+		            		<span class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2016</span>
+	            		</a>
 		            </div>
 		            <div class="event">
-							  	<h4><a href="/events/event.php">ERLC National Conference 2016 <i class="ion-chevron-right"></i></a></h4>
-							  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</p>
+		            	<a href="/events/event.php"><img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+							  		<h4>ERLC National Conference 2016 <i class="ion-chevron-right"></i></h4>
+							  		<span class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2016</span>
+							  	</a>
 						  	</div>
 		            <div class="event">
-		            	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
-		            	<p class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</p>
+		            	<a href="/events/event.php"><img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+		            		<h4>Sample Title of Event <i class="ion-chevron-right"></i></h4>
+		            		<span class="city-date">Washington, DC  <span class="pipe">|</span> May 23-24 2017</span>
+		            	</a>
 		            </div>
 		            <div class="event">
-							  	<h4><a href="/events/event.php">Sample Title of Event <i class="ion-chevron-right"></i></a></h4>
-							  	<p class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</p>
+		            	<a href="/events/event.php"><img class="event-thumb" src="http://placehold.it/100x50/" alt="Event Name Thumbnail" />
+							  		<h4>Sample Title of Event <i class="ion-chevron-right"></i></h4>
+							  		<span class="city-date">Nashville, TN <span class="pipe">|</span> May 24-25 2017</span>
+							  	</a>
 						  	</div>
 						  </div>
 							<!-- <ul class="list-unstyled posts">
